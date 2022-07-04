@@ -63,7 +63,7 @@ export GPG_TTY=$TTY
 
 # Source additional local files if they exist.
 z4h source ~/.env.zsh
-z4h source ~/Projects/configs/Shell-configs/zsh4humans/git.plugin.zsh
+z4h source ~/.config/zsh/git.plugin.zsh
 
 # Use additional Git repositories pulled in with `z4h install`.
 #
@@ -120,7 +120,6 @@ export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 export HISTFILE="${XDG_STATE_HOME}"/zsh/history
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-
 
 #evals needed for apps
 eval "$(zoxide init zsh)"
@@ -182,3 +181,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
 alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/Projects/Neovim/ && z ~/Projects/Neovim'
+alias zshc='cp -r ~/.config/zsh/* ~/projects/zsh-configs/ ; cd ~/projects/zsh-configs'
