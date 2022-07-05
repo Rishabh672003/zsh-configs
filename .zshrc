@@ -131,6 +131,7 @@ fastfetch
 #my aliases
 alias nr='sudo systemctl restart NetworkManager'
 alias y='yay' 
+alias ys='yay -Syu --noconfirm'
 alias p='paru'
 alias n='neofetch'
 alias f='fastfetch'
