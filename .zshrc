@@ -184,8 +184,9 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && yay -Syyu --noconfirm'
 alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/projects/Neovim/ && z ~/Projects/Neovim'
 alias zshc='cp -r ~/.config/zsh/* ~/projects/zsh-configs/ ; cd ~/projects/zsh-configs'
-alias awe='cd ~/projects/awesome-dotfiles/ && git pull \
+alias awe='cd ~/projects/awesome-dotfiles/ && git pull && git submodule update --remote --merge \
   && cp -r ~/.config/awesome/* ~/projects/awesome-dotfiles/config/awesome/ \
   && z ~/projects/awesome-dotfiles/config/awesome && rm user_variables.lua \
-  && cp ~/projects/user_variables.lua ~/projects/awesome-dotfiles/config/awesome/'
+  && cp ~/projects/user_variables.lua ~/projects/awesome-dotfiles/config/awesome/ \
+  && cd ../../'
 
