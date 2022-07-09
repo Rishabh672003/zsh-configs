@@ -1,4 +1,5 @@
 #my aliases
+alias cal='nvim ~/.config/zsh/aliases.zsh'
 alias nr='sudo systemctl restart NetworkManager'
 alias y='yay' 
 alias ys='yay -Syu --noconfirm'

@@ -62,7 +62,6 @@ path=(~/bin $path)
 export GPG_TTY=$TTY
 
 # Source additional local files if they exist.
-z4h source ~/.env.zsh
 z4h source ~/.config/zsh/shell-varibales-and-commands.zsh
 z4h source ~/.config/zsh/aliases.zsh
 z4h source ~/.config/zsh/git.plugin.zsh
