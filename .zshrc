@@ -65,6 +65,7 @@ export GPG_TTY=$TTY
 z4h source ~/.config/zsh/shell-varibales-and-commands.zsh
 z4h source ~/.config/zsh/aliases.zsh
 z4h source ~/.config/zsh/git.plugin.zsh
+z4h source ~/.config/zsh/.p10k.zsh
 
 # Use additional Git repositories pulled in with `z4h install`.
 #
