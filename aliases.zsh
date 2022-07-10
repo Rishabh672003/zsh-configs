@@ -59,5 +59,4 @@ alias awe='cd ~/projects/awesome-dotfiles/ && git pull && git submodule update -
   && cp -r ~/.config/awesome/* ~/projects/awesome-dotfiles/config/awesome/ \
   && z ~/projects/awesome-dotfiles/config/awesome && rm user_variables.lua \
   && cp ~/projects/user_variables.lua ~/projects/awesome-dotfiles/config/awesome/ \
-  && cd ../../'
-
+  && cd ~/projects/awesome-dotfiles/ '
