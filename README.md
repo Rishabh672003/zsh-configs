@@ -12,5 +12,5 @@ fi
 and to apply the configs run this command
 
 ```bash
-mkdir $HOME/.config/zsh ; cp * $HOME/.config/zsh/
+git clone https://github.com/Rishabh672003/zsh-configs && mkdir $HOME/.config/zsh ; cp * $HOME/.config/zsh/
 ```
