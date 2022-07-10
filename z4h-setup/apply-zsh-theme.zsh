@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-cp ./* ~/.config/zsh/
+cp ../* ~/.config/zsh/
 
