@@ -13,7 +13,7 @@ alias cz='nvim ~/.config/zsh/.zshrc'
 alias e='exit'
 alias vs='sudoedit'
 alias ae='alacritty -e'
-alias lgit='lazygit'
+alias lg='lazygit'
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 alias v='nvim'
 alias nnvim='~/Applications/nvim.appimage'
