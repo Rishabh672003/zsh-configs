@@ -53,6 +53,7 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
+alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/'
 alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/projects/Neovim/ && z ~/Projects/Neovim'
 alias zshc='cp -r ~/.config/zsh/* ~/projects/zsh-configs/ ; cd ~/projects/zsh-configs'
 alias awe='cd ~/projects/awesome-dotfiles/ && git pull && git submodule update --remote --merge \
