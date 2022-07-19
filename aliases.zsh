@@ -14,7 +14,6 @@ alias cdpp='cd ../../'
 alias cz='nvim ~/.config/zsh/.zshrc'
 alias e='exit'
 alias vs='sudoedit'
-alias ae='alacritty -e'
 alias lg='lazygit'
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 alias nv='nvim'
@@ -38,7 +37,6 @@ alias sus='systemctl suspend'
 alias ls='exa --color always --icons -a'
 alias ll='exa --color always --icons -1albh -s name'
 alias lll='exa --color always --icons -1albhT -L 2 -s name'
-alias zshrc='exec zsh'
 alias ws='waydroid show-full-ui'
 alias wss='XDG_SESSION_TYPE=wayland waydroid show-full-ui'
 alias we='waydroid session stop'
@@ -49,7 +47,7 @@ alias wtr='curl -4 https://wttr.in/virar'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
-    rate-mirrors --disable-comments --save=$TMPFILE arch --max-delay=21600 && \
+    rate-mirrors --save=$TMPFILE arch --max-delay=21600 && \
     sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup && \
     sudo mv $TMPFILE /etc/pacman.d/mirrorlist && \
     ua-drop-caches && \
@@ -58,5 +56,5 @@ alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
     cd ~/projects/Neovim'
 alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; \
     cp -r ~/.config/nvim/* ~/projects/Neovim/ && z ~/Projects/Neovim'
-alias zshc='cp -r ~/.config/zsh/* ~/projects/zsh-configs/ ; \
+alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs'
