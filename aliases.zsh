@@ -44,6 +44,8 @@ alias wr='sudo systemctl restart waydroid-container'
 alias wl='sudo waydroid log'
 alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
+alias gtnv='curl --output-dir ~/Applications/ \
+  -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
