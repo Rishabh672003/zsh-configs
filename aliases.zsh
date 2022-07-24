@@ -29,8 +29,8 @@ alias rest='reboot'
 alias log='gnome-session-quit'
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
-alias rsss='sh ~/Projects/configs/mirrors-and-hosts/rate-mirrors-arch.sh'
-alias hosts='sh ~/Projects/hosts/hosts-maker.sh'
+alias rsss='sh ~/projects/configs/mirrors-and-hosts/rate-mirrors-arch.sh'
+alias hosts='sh ~/projects/hosts/hosts-maker.sh'
 alias rest='reboot'
 alias shut='shutdown now'
 alias sus='systemctl suspend'
@@ -56,7 +56,5 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
     yay -Syyu --noconfirm'
 alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
     cd ~/projects/Neovim'
-alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; \
-    cp -r ~/.config/nvim/* ~/projects/Neovim/ && z ~/Projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs'
