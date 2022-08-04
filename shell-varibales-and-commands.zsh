@@ -1,5 +1,6 @@
 #my commands
-clear;fastfetch
+# clear;
+fastfetch
 #neofetch
 # fastfetch
 # pfetch
