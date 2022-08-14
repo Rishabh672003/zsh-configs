@@ -1,5 +1,7 @@
 #my aliases
-alias cal='nvim ~/.config/zsh/aliases.zsh'
+alias m='mocp'
+alias py='python'
+alias cali='nvim ~/.config/zsh/aliases.zsh'
 alias nr='sudo systemctl restart NetworkManager'
 alias y='yay'
 alias ys='yay -Syu --noconfirm --devel'
@@ -60,3 +62,5 @@ alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
     cd ~/projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs'
+alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
+

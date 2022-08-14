@@ -1,9 +1,7 @@
-#my commands
-# clear;
-fastfetch
-#neofetch
+# my commands
+# neofetch
 # fastfetch
-# pfetch
+pfetch
 
 #evals needed for apps
 eval "$(zoxide init zsh)"
