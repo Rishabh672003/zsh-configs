@@ -1,5 +1,6 @@
 #my aliases
 alias m='mocp'
+alias cpc='clear;pfetch'
 alias py='python'
 alias cali='nvim ~/.config/zsh/aliases.zsh'
 alias nr='sudo systemctl restart NetworkManager'
@@ -64,4 +65,6 @@ alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs'
 alias pgit='cp ~/python-study/* ~/projects/python-studies/ ; cd ~/projects/python-studies/'
-
+alias sdr='sudo docker run -it archlinux:base-devel'
+alias sdp='sudo docker system prune -a'
+alias uneo='sudo true && cd /home/rishabh/projects/random-repos/neovim/ && git pull && sudo make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install'

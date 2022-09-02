@@ -1,6 +1,7 @@
 # my commands
 # neofetch
 # fastfetch
+# clear
 pfetch
 
 #evals needed for apps
