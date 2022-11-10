@@ -11,3 +11,9 @@ made with ⚡[zap](https://github.com/zap-zsh-zap) very minimal and has all the 
 ```bash
 sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/zsh-configs/main/install.sh)
 ```
+
+## uninstallation
+
+```bash
+rm -rf $HOME/.local/share/zap $HOME/.config/zsh $HOME/.cache/zsh
+```
