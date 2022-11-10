@@ -1,3 +1,7 @@
 # my zsh-configs
 
 made with ⚡[zap](https://github.com/zap-zsh-zap) very minimal and has all the stuff you would require for a great shell.
+
+## showcase
+
+![image](https://user-images.githubusercontent.com/53911515/200997209-9f23ec26-36c9-46f3-a954-7da5ef9b5d15.png)
