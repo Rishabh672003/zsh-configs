@@ -1013,3 +1013,4 @@ nv ~/.config/zsh/history
 nv ~/.config/zsh/history
 cd
 exec zsh
+yay -Syyu
