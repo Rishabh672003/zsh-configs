@@ -13,7 +13,7 @@ export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
-export HISTFILE="${XDG_STATE_HOME}"/zsh/history
+export HISTFILE="${XDG_CONFIG_HOME}"/zsh/history
 export HISTCONTROL=ignoredups:erasedups
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XDG_SESSION_TYPE=wayland
