@@ -2492,3 +2492,9 @@ time $SHELL -i -c exit
 nv
 e
 exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zshc
+ll
+rm .zcompdump
+e
