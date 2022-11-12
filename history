@@ -1678,3 +1678,17 @@ cd
 c
 yay -S lesspipe
 e
+zshc
+lg
+lg
+nv history
+lg
+nv
+yay -R cat
+e
+c
+e
+cd .bashrc
+nv .bashrc
+c
+e
