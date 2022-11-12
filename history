@@ -1947,3 +1947,24 @@ c
 cz
 cali
 exec zsh
+e
+cd git-repos
+ll
+mv a.sh gc.sh
+chmod +x gc.sh
+ll
+e
+c
+zshc
+cali
+lg
+git push
+git commit -a -m "update"
+git push
+cd
+c
+cd git-repos
+nv a.sh
+cz
+cali
+exec zsh
