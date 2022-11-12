@@ -2498,3 +2498,17 @@ zshc
 ll
 rm .zcompdump
 e
+cd .config/zsh
+ll
+zshc
+ll
+c
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+cd projects/zsh-configs
+ll
+ls
+exec zsh
