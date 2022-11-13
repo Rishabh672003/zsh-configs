@@ -3027,3 +3027,34 @@ zshc
 lg
 cz
 exec zsh
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+cd .config/zsh/history
+cd .config/zsh/
+uniq -u history
+uniq --all-repeated=none history
+uniq --unique history
+uniq --unique history > history
+less history
+nv history
+yel
+yadm enter
+ll
+mv .zshenv ..
+yel
+ll
+cdp
+ll
+mv .zshenv zsh
+cd zsh
+ll
+cp -r ~/projects/zsh-configs/history .
+lg
+yel

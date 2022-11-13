@@ -33,9 +33,13 @@ _try_source ~/.config/zsh/git.plugin.zsh
 fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
 
 # Comp stuff and autoloading them
-
 autoload -Uz compinit
-compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
+    compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION";
+	compinit;
+else
+	compinit -C;
+fi;
 autoload -Uz zmv
 
 # zmodload zsh/zprof
