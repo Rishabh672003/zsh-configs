@@ -2932,3 +2932,21 @@ e
 zshc
 lg
 e
+time $SHELL -i -c exit
+c
+time $SHELL -i -c exit
+zshc
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+lg
+e
+zshc
+lg
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
