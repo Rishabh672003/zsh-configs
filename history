@@ -2897,3 +2897,38 @@ exec zsh
 rm -rf ~/.local/share/zap/plugins
 exec zsh
 exec zsh
+zshc
+lg
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+zap update
+zap -a
+cd .local/share/zap/
+git pull
+zap --update
+nv .
+zap -A
+zap V
+zap Version
+zap version
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+nv
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+e
+zshc
+lg
+e

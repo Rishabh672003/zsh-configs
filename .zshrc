@@ -27,7 +27,7 @@ plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 
 # source stuff
 _try_source ~/.config/zsh/aliases.zsh
-# _try_source ~/.config/zsh/git.plugin.zsh
+_try_source ~/.config/zsh/git.plugin.zsh
 
 # add other function path for completion
 fpath=(~/.local/share/zap/plugins/zsh-completions/src $fpath)
@@ -47,7 +47,7 @@ plug "zap-zsh/fzf"
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
 zstyle ':completion:*:descriptions' format '[%d]'
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':fzf-tab:*' switch-group ',' '.'
 zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
