@@ -2894,3 +2894,6 @@ perl ack
 c
 cz
 exec zsh
+rm -rf ~/.local/share/zap/plugins
+exec zsh
+exec zsh

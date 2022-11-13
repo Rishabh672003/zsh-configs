@@ -41,6 +41,8 @@ autoload -Uz zmv
 # zmodload zsh/zprof
 
 plug "Aloxaf/fzf-tab"
+plug "Freed-Wu/fzf-tab-source"
+plug "zap-zsh/fzf"
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
