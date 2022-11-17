@@ -3481,20 +3481,186 @@ time $SHELL -i -c exit
 e
 nv history
 exec zsh
-: 1668679509:0;c
-: 1668679510:0;time $SHELL -i -c exit
-: 1668679513:0;c
-: 1668679514:0;ll
-: 1668679516:0;c
-: 1668679524:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
-: 1668679527:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
-: 1668679531:0;c
-: 1668679533:0;lll
-: 1668679534:0;c
-: 1668679536:0;nv history
-: 1668679547:0;time $SHELL -i -c exit
-: 1668679553:0;c
-: 1668679562:0;ll
-: 1668679567:0;uneo
-: 1668679630:0;gtnv
-: 1668679947:0;zshc
+c
+time $SHELL -i -c exit
+c
+ll
+c
+grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+c
+lll
+c
+nv history
+time $SHELL -i -c exit
+c
+ll
+uneo
+gtnv
+zshc
+lg
+cd
+c
+lll
+c
+ll
+c
+ll
+c
+nv
+ll
+l
+lll
+ll
+l
+ll
+nv
+ping 8.8.8.8
+nv
+ys
+nv
+nv a.vue
+cd projects/jspro
+ll
+mkdir a.git
+nv a.vue
+c
+nv
+cd
+c
+ll
+nv
+time $SHELL -i -c exit
+time $SHELL -i -c exit
+c
+ys
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+grub-update
+c
+cd
+c
+ys
+c
+ll
+c
+ping 8.8.8.8
+c
+exec zsh
+c
+nvim
+ys
+nv
+yl
+c
+nv
+c
+ys
+nv
+c
+ll
+c
+exec zsh
+v
+c
+nv
+cd
+c
+nv ~/.config/zsh/history
+time $SHELL -i -c exit
+e
+exec zsh
+c
+nv ~/.config/zsh/history
+c
+ll
+nv
+c
+ll
+nvim
+time $SHELL -i -c exit
+c
+update-grub
+exec zsh
+c
+ll
+nv
+cz
+exec zsh
+cd .config/zsh
+ll
+uniq history
+exec zsh
+uniq history
+c
+e
+cz
+time $SHELL -i -c exit
+nv ~/.local/share/zap
+cd .local/share/zap
+ll
+cd plugins
+ll
+cd supercharge
+ll
+nv supercharge.plugin.zsh
+e
+time $SHELL -i -c exit
+e
+zap -c
+e
+time $SHELL -i -c exit
+e
+ls
+e
+time $SHELL -i -c exit
+c
+nv
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+exec zsh
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+rm a.vue
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+exec zsh
+e
+e
+exec zsh
+time $SHELL -i -c exit
+exec zsh
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+pacman -Qi | fzf
+pacman -Qq | fzf
+zstat
+zstat Applications
+nv
+time $SHELL -i -c exit
+e
+ls --colour
+ls --colour auto
+e
+time $SHELL -i -c exit
+e
+: 1668691836:0;yay -S zsh-completions-git
+: 1668691866:0;time $SHELL -i -c exit
+: 1668691868:0;cd
+: 1668691868:0;c
+: 1668691869:0;nv
+: 1668691967:0;c
+: 1668692022:0;time $SHELL -i -c exit
+: 1668692064:0;cd projects/zsh-configs
+: 1668692067:0;git pull
+: 1668692094:0;cp -r ~/projects/zsh-configs/README.md ~/.config/zsh
+: 1668692096:0;zshc
+: 1668692098:0;lg
+: 1668692122:0;zshc
