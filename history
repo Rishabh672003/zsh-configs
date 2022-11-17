@@ -3479,3 +3479,22 @@ time $SHELL -i -c exit
 time $SHELL -i -c exit
 time $SHELL -i -c exit
 e
+nv history
+exec zsh
+: 1668679509:0;c
+: 1668679510:0;time $SHELL -i -c exit
+: 1668679513:0;c
+: 1668679514:0;ll
+: 1668679516:0;c
+: 1668679524:0;grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+: 1668679527:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
+: 1668679531:0;c
+: 1668679533:0;lll
+: 1668679534:0;c
+: 1668679536:0;nv history
+: 1668679547:0;time $SHELL -i -c exit
+: 1668679553:0;c
+: 1668679562:0;ll
+: 1668679567:0;uneo
+: 1668679630:0;gtnv
+: 1668679947:0;zshc
