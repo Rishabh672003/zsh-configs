@@ -3651,16 +3651,265 @@ ls --colour auto
 e
 time $SHELL -i -c exit
 e
-: 1668691836:0;yay -S zsh-completions-git
-: 1668691866:0;time $SHELL -i -c exit
-: 1668691868:0;cd
-: 1668691868:0;c
-: 1668691869:0;nv
-: 1668691967:0;c
-: 1668692022:0;time $SHELL -i -c exit
-: 1668692064:0;cd projects/zsh-configs
-: 1668692067:0;git pull
-: 1668692094:0;cp -r ~/projects/zsh-configs/README.md ~/.config/zsh
-: 1668692096:0;zshc
-: 1668692098:0;lg
-: 1668692122:0;zshc
+yay -S zsh-completions-git
+time $SHELL -i -c exit
+cd
+c
+nv
+c
+time $SHELL -i -c exit
+cd projects/zsh-configs
+git pull
+cp -r ~/projects/zsh-configs/README.md ~/.config/zsh
+zshc
+lg
+zshc
+lg
+c
+yay -S rofi-emoji
+rofi-emoji
+rofi -modi emoji -show emoji -emoji-format '{emoji}'
+rofi -modi emoji -show emoji
+nv
+ll
+c
+cd .config/zsh
+ll
+cd
+c
+cd .config/rofi
+ll
+nv .
+rofi -modi emoji -show emoji
+nnv
+nv
+rofi -modi emoji -show emoji
+cd userconfig
+cd
+exec zsh
+c
+nv
+yl
+cz
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+zprof | head
+#hello
+c
+echo
+rm history
+man bat
+c
+e
+cd wall
+c 
+nv
+nv ~/.config/mpv
+nv
+cd
+nv
+exec zsh
+c
+uneo
+nv ~/.config/dunst/dunstrc
+killall -9 dunst
+dunst
+dunstify "help"
+nv ~/.config/dunst/dunstrc
+e
+killall -9 dunst
+dunst
+/usr/bin/dmenu -p dunst
+dmenu -p
+nv
+c
+dunstctl is-paused
+c
+nv
+c
+yay -S mpvpaper
+c
+ys
+yay -R zsh-completions-git
+yay -S zsh-completions
+c
+exec zsh
+time $SHELL -i -c exit
+cat /dev/urandom | hexdump -C | grep "ca fe"
+c
+cz
+exec zsh
+time $SHELL -i -c exit
+c
+exa --accessed Applications --group-directories-first Applications
+cd
+c
+alias cd
+z neo
+cd
+c
+uneo
+c
+nvim
+cd
+c
+nvim --startuptime a.log
+nv a.log
+c
+ll
+yl
+yel
+nv
+yl
+cd .config/nvim
+ll
+rm -rf .git 
+ll
+rm .gitignore
+ll
+c
+cd
+c
+yl
+yadm add ~/.config/nvim
+yadm commit -a -m "update"
+yel
+yl
+cd .config/nvim
+ll
+cdp
+mv nvim nvim.bak
+yl
+mv nvim.bak nvim
+cd nvim
+ll
+yl
+nvim
+nv
+ngit
+lg
+nv
+ngit
+lg
+e
+ngit
+lg
+e
+c
+cd
+cd projects/xdg-ninja
+./xdg-ninja.sh
+rm ~/.zshrc
+cd XDG_DATA_HOME/themes
+cd $XDG_DATA_HOME/themes
+ll
+mv ~/.themes/* .
+sudo mv ~/.themes/* .
+cd
+cd .themes
+ll
+cd
+ll
+fd theme
+rm -rf .themes
+yay -S gradience
+gradience
+tldr tar
+tldr tldr
+tldr man
+tldr tar
+tpg
+ping 8.8.8.8
+trash
+trash-cli
+trash-list
+e
+ll
+trash a.log
+ll
+trash-list
+cz
+trash-restore
+tldr trash-rm
+man tldr-rm
+man tldr
+man trash
+e
+time $SHELL -i -c exit
+trash
+nv
+sdr
+yay -S trash-cli
+yay -S trash
+yay -R trash-cli
+yay -S trash
+yay -S trash --noconfirm
+e
+yay -R trash
+c
+ll
+c
+e
+e
+trash
+time $SHELL -i -c exit
+c
+nv
+c
+
+
+time $SHELL -i -c exit
+c
+lll
+cd
+c
+ll
+c
+nv .bash_profile
+ll
+ya
+yl
+yel
+nv
+cz
+c
+cc
+c
+nv
+time $SHELL -i -c exit
+e
+ncdu
+c
+ll
+cd
+c
+ll
+c
+nv
+c
+nr
+c
+ll
+c
+nv
+nv Pictures
+cd pic
+nv ~/.config/zsh/lessfilter.sh
+c
+ll
+c
+nv .
+cd
+cd zsh
+cdd zsh
+nv README.md
+sudo pacman -S zsh fzf exa zoxide zsh-completions --needed --noconfirm 
+e
+: 1668793729:0;zshc

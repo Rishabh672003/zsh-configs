@@ -24,7 +24,6 @@ plug "zap-zsh/vim"
 plug "MichaelAquilina/zsh-autoswitch-virtualenv"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
-
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "zap-zsh/fzf"

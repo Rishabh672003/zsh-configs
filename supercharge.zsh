@@ -19,7 +19,6 @@ unsetopt BEEP
 setopt AUTO_CD
 setopt GLOB_DOTS
 setopt NOMATCH
-# setopt MENU_COMPLETE
 setopt EXTENDED_GLOB
 setopt INTERACTIVE_COMMENTS
 setopt APPEND_HISTORY
@@ -35,24 +34,3 @@ autoload -Uz colors && colors
 
 # bindings
 bindkey -s '^x' '^uexec zsh\n'
-
-# ls colors
-case "$(uname -s)" in
-
-Darwin)
-	# echo 'Mac OS X'
-	alias ls='ls -G'
-	;;
-
-Linux)
-	alias ls='ls --color=auto'
-	;;
-
-CYGWIN* | MINGW32* | MSYS* | MINGW*)
-	# echo 'MS Windows'
-	;;
-*)
-	# echo 'Other OS'
-	;;
-esac
-
