@@ -4089,4 +4089,249 @@ ll
 c
 nv .
 e
-: 1668847205:0;zshc
+zshc
+lg
+we
+sdr
+cd
+cd projects/Neovim
+ll
+ngit
+lg
+git ls-files | xargs cat | wc -l
+git ls-files
+nv
+cd
+c
+nv
+nv a.cpp
+cd projects
+mkdir cppro
+cd cppro
+ll
+mkdir .git
+nv a.cpp
+nv
+cpp
+cc a.cpp
+e
+clangd
+yay -S clang-check
+e
+nv a.cpp
+yay -S cppcheck
+e
+cdp
+rm -rf cppro
+ll
+mkdir cpro
+cd cpro
+nv a.c
+cdp
+cd cpro
+ll
+nv a.cpp
+cd
+cd .config/lvim
+ll
+mkdir -p ftplugin
+cd ftplugin
+lv c.lua
+cd
+cd projects/cpro
+ll
+lv a.c
+lv
+lv a.cpp
+c
+nv a.c
+lv
+lv a.c
+nv
+pyright
+python-study
+ll
+cd
+c
+e
+nv
+lv a.c
+lv
+c
+sh ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+e
+lvim
+cd
+cd .config/lvim
+ll
+rm -rf *
+gh repo clone ChristianChiarulli/lvim .
+ll
+lv
+lv a.c
+c
+cd
+c
+ping 8.8.8.8
+c
+ys
+c
+ll
+c
+rm -rf .git 
+ll
+nv
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+\
+./mvnw clean install
+e
+cz
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+\
+./mvnw clean install
+cdp
+rm -rf java-debug
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+\
+./mvnw clean install
+yay -S jdk-openj9
+yay -S jdk18-openjdk
+yay -S jdk18-openjdk-bin
+curl -s "https://get.sdkman.io" | bash
+e
+sdk install
+sdk list
+sdk list java
+sdk install java
+yay -R java-runtime-common
+yay -Rncs java-runtime-common
+e
+rm -rf .sdkman
+export SDKMAN_DIR="/usr/local/sdkman" && curl -s "https://get.sdkman.io" | bash
+ll
+export SDKMAN_DIR="/home/rishabh/.local/share/sdkman" && curl -s "https://get.sdkman.io" | bash
+cz
+ll
+rm -rf ~/.local/share/sdkman
+export SDKMAN_DIR="/home/rishabh/.local/share/sdkman" && curl -s "https://get.sdkman.io" | bash
+sdk install java-19
+sdk list java
+sdk install 19-open
+sdk install java-19-open
+sdk list java
+sdk install java 19.0.1-oracle
+time $SHELL -i -c exit
+e
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+\
+./mvnw clean install
+rm -rf ~/.config/nvim/java-debug
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+
+cd
+git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug\
+
+./mvnw clean install
+c
+nv
+cd
+c
+cz
+cd .java
+ll
+cd .userPrefs
+ll
+cd
+cz
+e
+cd .config/nvim
+ll
+cd java-debug
+ll
+./mvnw clean install
+cd .lo
+cd share
+cd sdkman
+ll
+cd bin
+ll
+cd
+ll
+cd .m2
+ll
+cd
+rm -rf .m2
+rm -rf .sdkman .cache
+ll
+: 1668859692:0;cd
+: 1668859692:0;c
+: 1668859693:0;ll
+: 1668859697:0;cd .cache
+: 1668859698:0;ll
+: 1668859705:0;cdp
+: 1668859705:0;ll
+: 1668859713:0;javac
+: 1668859720:0;java2html
+: 1668859723:0;java
+: 1668859725:0;cd
+: 1668859728:0;ll
+: 1668859786:0;cd .local/share/sdkman
+: 1668859787:0;lll
+: 1668859803:0;java
+: 1668859806:0;cz
+: 1668859821:0;sdk current
+: 1668859829:0;sdk install java 19.0.1-oracle
+: 1668859992:0;javac
+: 1668859996:0;cd .config/nvim
+: 1668859998:0;cd java-debug
+: 1668859999:0;ll
+: 1668860043:0;./mvnw clean install
+: 1668860177:0;jre
+: 1668860220:0;rm -rf ~/.local/share/sdkman
+: 1668860252:0;yay -S jre-openjdk
+: 1668860295:0;cd p
+: 1668860304:0;java a.java
+: 1668860315:0;cd
+: 1668860320:0;cd .config/nvim/java-debug
+: 1668860321:0;./mvnw clean install
+: 1668860351:0;ll
+: 1668860367:0;./mvnw clean install
+: 1668860410:0;yay -S jre17-openjdk-headless
+: 1668860459:0;javac
+: 1668860465:0;java
+: 1668860478:0;yay -R java-runtime-common
+: 1668860485:0;yay -Rcns java-runtime-common
+: 1668860499:0;export SDKMAN_DIR="/home/rishabh/.local/share/sdkman" && curl -s "https://get.sdkman.io" | bash
+: 1668860514:0;sdk help
+: 1668860544:0;sdk install java 19.0.1-open
+: 1668860668:0;javac
+: 1668860671:0;cd .config/nvim/java-debug
+: 1668860674:0;./mvnw clean install
+: 1668860682:0;cdp
+: 1668860687:0;rm -rf java-debug
+: 1668860693:0;git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug\
+\
+cd ~/.config/nvim/java-debug
+: 1668860700:0;cd java.debug.target
+: 1668860705:0;./mvnw clean install
+: 1668860817:0;cd
+: 1668860818:0;ll
+: 1668862682:0;cd
+: 1668862683:0;c
+: 1668862698:0;rm -rf ~/.config/nvim/java-debug
+: 1668862699:0;cd
+: 1668862700:0;c
+: 1668862701:0;zshc

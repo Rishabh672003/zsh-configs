@@ -65,3 +65,7 @@ plug "romkatv/powerlevel10k"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/rishabh/.local/share/sdkman"
+[[ -s "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.local/share/sdkman/bin/sdkman-init.sh"
