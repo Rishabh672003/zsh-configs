@@ -40,6 +40,7 @@ fi;
 # source stuff
 plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/git.plugin.zsh
+plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
 
 # all the completion stuff
 zstyle ':completion:*:git-checkout:*' sort false
