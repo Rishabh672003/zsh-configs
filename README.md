@@ -1,32 +1,19 @@
-# my zsh-configs
+# zsh-configs
 
-made with ⚡[zap](https://github.com/zap-zsh-zap) very minimal and has all the stuff you would require for a great shell.
+my zsh configs
 
-## showcase
-
-![image](https://user-images.githubusercontent.com/53911515/201460548-1957f0e5-bede-4f97-b72b-6ddd64c287cb.png)
-![image](https://user-images.githubusercontent.com/53911515/201460573-e4bbc0ce-566b-4225-abd7-9aad08ebd266.png)
-![image](https://user-images.githubusercontent.com/53911515/202460011-d781dcf9-5fb9-4ddc-b2ec-733d2cddc5e0.png)
-
-## startup-time
-
-i have tried to worked on the startup time and it varies around 200ms to 400ms. If you know how to reduce it please open a pr, i would very much appreciate it
-
-![image](https://user-images.githubusercontent.com/53911515/202460120-4e80a636-6e1e-45ac-a094-7d6deb910ccc.png)
-
-## Installation
+I use zsh4humans so to install it run this command
 
 ```bash
-sh <(curl -s https://raw.githubusercontent.com/Rishabh672003/zsh-configs/main/install.sh)
+if command -v curl >/dev/null 2>&1; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+else
+  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
+fi
 ```
 
-### Dependencies
-```bash
-sudo pacman -S zsh fzf exa zoxide zsh-completions bat chafa exiftool --needed --noconfirm 
-```
-
-## Uninstallation
+and to apply the configs run this command
 
 ```bash
-rm -rf $HOME/.local/share/zap $HOME/.config/zsh $HOME/.cache/zsh
+git clone https://github.com/Rishabh672003/zsh-configs && cd zsh-configs && mkdir -p $HOME/.config/zsh ; cp * $HOME/.config/zsh/
 ```
