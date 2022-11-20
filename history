@@ -4542,3 +4542,8 @@ ll
 time $SHELL -i -c exit
 e
 : 1668916277:0;zshc
+: 1668916279:0;lg
+: 1668916306:0;nv .gitignore
+: 1668916308:0;lg
+: 1668916339:0;cp .gitignore ~/.config/zsh
+: 1668916342:0;zshc
