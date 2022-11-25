@@ -4541,9 +4541,544 @@ e
 ll
 time $SHELL -i -c exit
 e
-: 1668916277:0;zshc
-: 1668916279:0;lg
-: 1668916306:0;nv .gitignore
-: 1668916308:0;lg
-: 1668916339:0;cp .gitignore ~/.config/zsh
-: 1668916342:0;zshc
+zshc
+lg
+nv .gitignore
+lg
+cp .gitignore ~/.config/zsh
+zshc
+lg
+exec zsh
+time $SHELL -i -c exit
+lg
+cd
+yel
+yl
+cali
+e
+exec zsh
+e
+time $SHELL -i -c exit
+cd projects/random-repos
+git clone -b zsh4humans https://github.com/Rishabh672003/zsh-configs.git
+cd zsh-configs
+ll
+rm -rf *
+ll
+cdp
+rm -rf zsh-configs
+git clone -b zsh4humans https://github.com/Rishabh672003/zsh-configs.git
+cd zsh-configs
+ll
+rm -rf .gitignore aliases.zsh functions.zsh git.plugin.zsh history install.sh lessfilter.sh LICENSE .p10k-ascii-8color.zsh .p10k.zsh README.md supercharge.zsh .zcompdump .zlogin .zprofile .zshenv .zshrc
+cp -r ~/.config/zsh.old/* .
+ll
+lg
+cd
+cd projects/random-repos
+rm -rf zsh-configs
+c
+ll
+cd
+c
+uneo
+gtnv
+cd
+c
+e
+cd
+c
+rm .gitignore
+cd .config/nvim
+ll
+rm -rf .git
+ll
+nv .gitignore
+yel
+cd .config/lvim
+ll
+cdp
+cd mpv
+ll
+nv .gitignore
+ll
+cd .con
+cd kitty
+ll
+cd kitty-themes
+ll
+cdp
+cd
+c
+yl
+c
+e
+nv
+ping 8.8.8.8
+nr
+contour
+e
+ys
+ping 8.8.8.8
+fd cache
+fd .cache
+fd -H .cache
+c
+time $SHELL -i -c exit
+e
+ys
+ping 8.8.8.8
+nv
+we
+e
+c
+ys
+nv
+time $SHELL -i -c exit
+c
+uneo
+nv
+cd
+nv a
+nv a.txt
+rm a a.txt
+nv
+c
+nv
+yl
+nv README.md
+nv 
+exec zsh
+yl
+c
+lll
+c
+clll
+ll
+baobab
+yay -S trash-cli
+trash-empty
+ll
+v
+c
+ll
+c
+nv
+c
+ys
+ngit
+lg
+c
+ll
+cd
+c
+ll
+lv
+go install github.com/maaslalani/nap@main
+nap
+ll
+nap
+e
+nap
+cz
+go list
+go clean
+cd Downloads
+ll
+tar -xvf nap_0.1.1_linux_amd64.tar.gz
+ll
+nap
+cd Downloads
+ll
+./nap
+cz
+e
+cp nap ~/.local/bin
+exec zsh
+cd
+nap
+e
+c
+nv
+cd
+c
+nap
+timezsh() {\
+    shell=${1-$SHELL}\
+    for i in $(seq 1 10); do time $shell -i -c exit; done\
+}\
+
+for i in $(seq 1 10); do time $shell -i -c exit\
+
+c
+ll
+nv
+nap
+e
+c
+nv
+ys
+nv
+nv --startuptime a.lua
+nv a.lua
+ping 8.8.8.8
+c
+ll
+c
+e
+c
+nv
+rm a.lua
+c
+nv
+cd projects
+gh repo clone catppuccin/bat
+cd bat
+mkdir -p "$(bat --config-dir)/themes"
+cp *.tmTheme "$(bat --config-dir)/themes"
+bat cache --build
+bat --list-themes
+bat --list-themes | grep "catppuccin"
+bat --list-themes | grep "cat"
+bat --list-themes | grep cat
+cdd
+cdp
+cd bat
+ll
+bat --config-file
+nv config
+exec zsh
+bat config
+c
+cdp
+cd nvim
+bat init.lua
+bat .bashrc
+man trash
+man man
+nv
+c
+man man
+nv
+cd
+c
+nv
+ngit
+lg
+e
+nap
+nv
+cd .local/share/nvim/site/pack/packer/start/catppuccin/lua/catppuccin/groups/integrations/
+nv which_key.lua
+nv
+e
+cd
+c
+cd c
+ll
+cd cpro
+ll
+nv a.c
+ll
+cc a.c
+ll
+./a.out
+e
+cc a.c
+./a.out
+e
+cd cpro
+gcc a.c
+ll
+rm a.out
+gcc a.c
+ll
+./a.out
+nv
+e
+g++ --help
+man g++
+e
+nv cpp
+cd cp
+nv a.c
+e
+cd cp
+ll
+nv a.c
+we
+shut
+nv
+c
+ll
+yd
+ys
+nv
+ping 8.8.8.8
+yay -S gnome-calculator
+we
+nv
+nv ~/.config/nvim/init.lua
+cd cp
+lv a.c
+nv a.c
+nv
+lv
+cd .con
+cd lvim
+ll
+nv
+cd
+cd .local/share/lunarvim/lvim/lua/lvim/lsp
+ll
+nv init.lua
+cd
+cd .config
+ll
+cd
+cd cp
+lv a.c
+nv
+nv a.c
+nvim ~/.config/nvim/lua/user/keymaps.lua
+nv
+e
+nv
+nvim ~/.config/nvim/lua/user/keymaps.lua
+nv
+lv a.c
+cd .config/lvim
+ll
+cd ftplugin
+ll
+rm c.lua
+cd
+cd cp
+lv a.c
+cd
+cd python-study
+nv 10.py
+c
+sdr
+ys
+e
+e
+c
+ys
+lv
+cd
+cd .config
+mv lvim lvim.old
+lv
+cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
+mkdir ~/.config/lvim
+cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
+lv
+cd lv
+ll
+rm config.example.lua
+ll
+lv
+lv config.lua
+nv
+uneo
+nnvim
+e
+nv
+nnvim
+nv
+ngit
+lg
+yl
+c
+ys
+spicetify backup restore apply
+spicetify backup
+spicetify restore backup
+spicetify backup restore apply
+ping 8.8.8.8
+nr
+ping 8.8.8.8
+nv
+cd cp
+nv a.c
+we
+cz
+rm -v a
+nv
+cz
+ll
+cd /tmp
+ll
+mkdir random
+mkdir 1-100
+ll
+cd 1-100
+ll
+mkdir 1*0
+ll
+touch a.txt
+rm a.txt
+touch a.txt
+rm a.txt
+e
+exec zsh
+c
+touch a.txt
+rm a.txt
+ll
+nv
+./a
+ll
+nv
+gcc a.c
+ll
+./a.out
+e
+ll
+rm s
+rm a
+ll
+nv a.c
+cz
+e
+exec zsh
+touch a.txt
+rm a.txt
+time $SHELL -i -c exit
+cd .local/share/zap
+zap update
+zap --update
+e
+cd .local/share/zap
+ll
+nv installed_plugins
+nv zap.zsh
+systemctl daemon-reload
+e
+ll
+e
+time $SHELL -i -c exit
+e
+cd .local/share/zap
+ll
+nv installed_plugins
+ys
+c
+uneo
+nv
+cd
+nv
+c
+tpg
+p
+/usr/bin/paru -Pw
+time $SHELL -i -c exit
+e
+c
+exec zsh
+ls
+e
+cd .local/share/zap
+ll
+cd plugins/exa
+ll
+nv exa.plugin.zsh
+exa
+yay -R exa
+ls
+e
+exa
+e
+exa
+ls
+e
+exec zsh
+c
+ls
+e
+ls
+yay -S exa
+ls
+e
+cz
+ls
+ys exa
+yay -S exa
+yay -R exa
+exa
+ls
+e
+ls
+yay -S exa
+ls
+e
+exec zsh
+ls
+e
+ls
+e
+time $SHELL -i -c exit
+ping 8.8.8.8
+ll
+c
+e
+cd .cache
+ll
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+cd zs
+ll
+cd
+cd .config
+ll
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+we
+cz
+nv
+nvim --startuptime a.log
+nv a.log
+e
+nvim
+time $SHELL -i -c exit
+c
+nv
+e
+c
+time $SHELL -i -c exit
+c
+nv
+c
+nv
+c
+cd .config/zsh
+ll
+c
+ll
+c
+nv
+cd
+rm a.log
+nv --startuptime a.lua
+nv a.lua
+nv --startuptime a.log
+e
+nv
+rm a.log
+nv
+time $SHELL -i -c exit
+c
+time $SHELL -i -c exit
+nv
+cd .config/zsh
+nv README.md
+time $SHELL -i -c exit
+e
+: 1669394347:0;time $SHELL -i -c exit
+: 1669394413:0;yl
+: 1669394420:0;zshc
