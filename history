@@ -5079,17 +5079,32 @@ cd .config/zsh
 nv README.md
 time $SHELL -i -c exit
 e
-: 1669394347:0;time $SHELL -i -c exit
-: 1669394413:0;yl
-: 1669394420:0;zshc
-: 1669394423:0;lg
-: 1669394457:0;nv
-: 1669394480:0;yl
-: 1669394486:0;zshc
-: 1669394488:0;lg
-: 1669396193:0;yay -S ticktick
-: 1669396205:0;ys ticktick
-: 1669396277:0;zshc
-: 1669396278:0;lg
-: 1669396284:0;cz
-: 1669396300:0;zshc
+time $SHELL -i -c exit
+yl
+zshc
+lg
+nv
+yl
+zshc
+lg
+yay -S ticktick
+ys ticktick
+zshc
+lg
+cz
+zshc
+lg
+e
+yay -S zenkit
+zenkit
+yay -R zenkit
+yay todoist
+nv
+cd
+c
+nv
+time $SHELL -i -c exit
+e
+time $SHELL -i -c exit
+e
+: 1669396896:0;zshc
