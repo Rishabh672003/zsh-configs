@@ -1126,7 +1126,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;nvim ~/projects/zsh-configs
 : 1669518694:0;nvim ~/.config/nvim/lua/user/nvim-tree.lua
 : 1669518694:0;nv ~/.config/zsh/
-: 1669518694:0;nv .config/zsh/
 : 1669518694:0;cd projects/chrome-gnome-shell
 : 1669518694:0;nv projects/chrome-gnome-shell
 : 1669518694:0;cd extensions
@@ -1173,7 +1172,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;nv a.vue
 : 1669518694:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=GRUB
 : 1669518694:0;grub-update
-: 1669518694:0;nv ~/.config/zsh/history
 : 1669518694:0;update-grub
 : 1669518694:0;uniq history
 : 1669518694:0;nv ~/.local/share/zap
@@ -1277,7 +1275,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;cd userconfig
 : 1669518694:0;mv * ~
 : 1669518694:0;mv ~/userconfig ~/config.rasi .
-: 1669518694:0;nv config.rasi
 : 1669518694:0;rofi -show drun --insensitive --allow-images
 : 1669518694:0;rofi -show run --insensitive --allow-images
 : 1669518694:0;rofi -show 
@@ -1285,7 +1282,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;meson build --prefix=/usr --buildtype=release
 : 1669518694:0;ninja -C build\
 
-: 1669518694:0;cd .config/rofi
 : 1669518694:0;sudo rm -rf wf-recorder
 : 1669518694:0;git clone https://github.com/joanbm/wf-recorder.git && cd wf-recorder
 : 1669518694:0;meson build --prefix=/usr --buildtype=release\
@@ -1581,9 +1577,7 @@ fi;\
 : 1669518694:0;zenkit
 : 1669518694:0;yay -R zenkit
 : 1669518694:0;yay todoist
-: 1669518694:0;zshc
 : 1669518694:0;ys ticktick
-: 1669518694:0;exec zsh
 : 1669518694:0;nvim --startuptime a.log
 : 1669518694:0;tpg
 : 1669518694:0;nr
@@ -1623,20 +1617,40 @@ fi;\
 : 1669518694:0;nv test.c
 : 1669518694:0;yay -S arduino
 : 1669518694:0;nv README.md
-: 1669518694:0;lg
 : 1669518694:0;ys
 : 1669518659:0;t
-: 1669518662:0;time $SHELL -i -c exit
 : 1669518668:0;cd cp
 : 1669518674:0;cd .config/zsh
-: 1669518675:0;ll
 : 1669518680:0;nv history
-: 1669518749:0;cz
-: 1669518795:0;hx ~/.config/zsh/history
-: 1669518817:0;nv
-: 1669518819:0;e
 : 1669518821:0;nv
 : 1669518876:0;nv .config/zsh/
 : 1669518891:0;hx ~/.config/zsh/history
 : 1669518914:0;nv ~/.config/zsh/history
 : 1669518940:0;zshc
+: 1669518942:0;lg
+: 1669519518:0;nvc ~/.config/zsh/history
+: 1669519552:0;cd .config/rofi
+: 1669519553:0;ll
+: 1669519555:0;nv config.rasi
+: 1669519598:0;cz
+: 1669519636:0;time $SHELL -i -c exit
+: 1669519652:0;plug ~/.config/zsh/supercharge.zsh
+: 1669519660:0;plug ~/.config/zsh/.zshrc
+: 1669519670:0;exec zsh
+: 1669519716:0;yay -S hybridbar
+: 1669519730:0;yay hybrid
+: 1669519751:0;e
+: 1669519763:0;nv
+: 1669520353:0;cd
+: 1669520353:0;c
+: 1669520354:0;nv
+: 1669520850:0;ys
+: 1669521285:0;yl
+: 1669521299:0;yel
+: 1669523987:0;nv
+: 1669525633:0;cd .local/share/zap
+: 1669525637:0;nv zap.zsh
+: 1669525745:0;cz
+: 1669525759:0;time $SHELL -i -c exit
+: 1669525760:0;c
+: 1669525777:0;zshc
