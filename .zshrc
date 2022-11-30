@@ -9,6 +9,7 @@ fi
 autoload -Uz plug
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+# all the good stuff
 plug ~/.config/zsh/supercharge.zsh
 
 # evals needed for apps
