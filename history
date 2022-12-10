@@ -1817,7 +1817,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670656025:0;time $SHELL -i -c exit
 : 1670656033:0;nv ~/projects/zsh-configs
 : 1670656062:0;ls
-: 1670656070:0;zshc
 : 1670665407:0;cp -r ~/projects/zsh-configs ~/.config/zsh
 : 1670665414:0;cd .config/zsh
 : 1670665416:0;lg
@@ -1826,9 +1825,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670665524:0;rm plugins
 : 1670665527:0;rm -rf plugins
 : 1670665529:0;exec zsh
-: 1670665546:0;cd
 : 1670665549:0;cd python-study
-: 1670665622:0;c
-: 1670665660:0;ll
-: 1670665667:0;e
 : 1670665675:0;zshc
+: 1670678220:0;ll
+: 1670678221:0;cd
+: 1670678221:0;c
+: 1670678222:0;e
+: 1670678227:0;time $SHELL -i -c exit
+: 1670678229:0;nv
+: 1670678230:0;cz
+: 1670678264:0;zshc
