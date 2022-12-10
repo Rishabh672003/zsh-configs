@@ -68,7 +68,6 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
     ua-drop-caches && \
     yay -Syyu --noconfirm'
 alias ngit='cp -r /home/rishabh/.config/nvim/* ~/projects/Neovim/ && \
-    cp ~/projects/init.lua ~/projects/Neovim/init.lua && \
     cd ~/projects/Neovim'
 alias zshc='cp ~/.config/zsh/* ~/projects/zsh-configs/ ; \
     cd ~/projects/zsh-configs
@@ -89,3 +88,4 @@ alias nrandom='tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 1000000
 alias yl='sh ~/.config/yadm/yadm.sh'
 alias yel='yadm enter lazygit'
 alias ccc='cp /home/rishabh/projects/cpro/* /home/rishabh/projects/learning-C/ && cd ~/projects/learning-C/'
+alias yt="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
