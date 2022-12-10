@@ -623,7 +623,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 : 1669518694:0;yay -R gnome-text-editor-git
 : 1669518694:0;nv a.java
 : 1669518694:0;rm a.java
-: 1669518694:0;rm *.mp4
 : 1669518694:0;rm bigfile.lua
 : 1669518694:0;tr -dc "A-Za-z 0-9" < /dev/urandom | fold -w100 | head -n 20000 > bigfile.lua
 : 1669518694:0;hx bigfile.lua
@@ -900,7 +899,6 @@ debugpy/bin/python -m pip install debugpy
 : 1669518694:0;cd e
 : 1669518694:0;exa --color always --icons -a
 : 1669518694:0;.local
-: 1669518694:0;build-fzf-tab-module
 : 1669518694:0;exa -1 --color=always $realpath
 : 1669518694:0;cd Public
 : 1669518694:0;zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
@@ -1097,7 +1095,6 @@ for i in $(seq 1 10); do time /bin/zsh -i -c exit; done;
 : 1669518694:0;cd projects/chrome-gnome-shell
 : 1669518694:0;nv projects/chrome-gnome-shell
 : 1669518694:0;cd extensions
-: 1669518694:0;cll
 : 1669518694:0;man stat
 : 1669518694:0;man 
 : 1669518694:0;cd .config/zsh/
@@ -1321,7 +1318,6 @@ cd ~/.config/nvim/java-debug\
 
 : 1669518694:0;cd .java
 : 1669518694:0;cd .userPrefs
-: 1669518694:0;cd .lo
 : 1669518694:0;cd share
 : 1669518694:0;cd sdkman
 : 1669518694:0;cd .m2
@@ -1627,7 +1623,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670002283:0;tar -xvf transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz
 : 1670002299:0;cd transmission-4.0.0-beta.2.dev+r728e5b8350
 : 1670002314:0;cd gtk
-: 1670002349:0;cd bin
 : 1670002380:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz transmission-4.0.0-beta.2.dev+r728e5b8350
 : 1670002397:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350
 : 1670002402:0;rm -rf transmission-4.0.0-beta.2.dev+r728e5b8350
@@ -1677,7 +1672,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670063971:0;nv ~/projects/cpro
 : 1670082784:0;cd .config
 : 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1670084014:0;cz
 : 1670084180:0;rm -rf $HOME/.config/nvim
 : 1670084183:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670084326:0;cd nvim
@@ -1685,7 +1679,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670090230:0;yay wlogout
 : 1670090263:0;cd down
 : 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
-: 1670090334:0;cdp
 : 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
 : 1670090358:0;cd ~/.config/wlogout
 : 1670090507:0;wlogout
@@ -1699,27 +1692,21 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670128516:0;yay -S paru
 : 1670132757:0;nv launch.sh
 : 1670134340:0;bv
-: 1670134661:0;cd .config/hypr/scripts
 : 1670134669:0;chmod +x launch.sh
 : 1670134672:0;./launch.sh
 : 1670150422:0;ws
 : 1670151100:0;nv Cofee_Shop.json
 : 1670154437:0;mv Cofee_Shop.json projects
-: 1670154441:0;cd projects
 : 1670154443:0;rm Cofee_Shop.json
 : 1670158291:0;cd projects/Neovim
 : 1670158307:0;git log
-: 1670158833:0;yel
 : 1670158873:0;nvim
 : 1670160759:0;nv card_game_advanced.c
 : 1670167742:0;nr
 : 1670170114:0;tpg
 : 1670171403:0;mv shigeo-kageyama-rage-mob-psycho-100-4k-3840Ãƒ·2160.jpg ~/.config/hypr/wallpapers
 : 1670171452:0;hyp
-: 1670171462:0;yl
 : 1670175317:0;systemctl status auto-cpufreq.service
-: 1670176223:0;killall -9 waybar
-: 1670176224:0;waybar
 : 1670261051:0;dunstctl history | head -n 100
 : 1670261792:0;cd Applications
 : 1670261794:0;gtnv
@@ -1768,7 +1755,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670432592:0;nv cp
 : 1670432737:0;ccc
 : 1670432759:0;cp -r college_C_stuff ~/projects/learning-C
-: 1670432762:0;cd pro
 : 1670432763:0;cd lea
 : 1670433186:0;cd college_C_stuff
 : 1670433189:0;./swap2.out
@@ -1813,25 +1799,67 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670654716:0;sdr
 : 1670655565:0;cd projects/zsh-configs
 : 1670655568:0;nv install.sh
-: 1670656013:0;nv
-: 1670656025:0;time $SHELL -i -c exit
 : 1670656033:0;nv ~/projects/zsh-configs
 : 1670656062:0;ls
 : 1670665407:0;cp -r ~/projects/zsh-configs ~/.config/zsh
-: 1670665414:0;cd .config/zsh
-: 1670665416:0;lg
 : 1670665463:0;nv ~/.config/zsh/.zshrc
 : 1670665521:0;cd .local/share/zap
 : 1670665524:0;rm plugins
 : 1670665527:0;rm -rf plugins
 : 1670665529:0;exec zsh
 : 1670665549:0;cd python-study
-: 1670665675:0;zshc
-: 1670678220:0;ll
 : 1670678221:0;cd
-: 1670678221:0;c
-: 1670678222:0;e
-: 1670678227:0;time $SHELL -i -c exit
-: 1670678229:0;nv
 : 1670678230:0;cz
 : 1670678264:0;zshc
+: 1670678266:0;lg
+: 1670678278:0;yl
+: 1670679306:0;cll
+: 1670681090:0;mv ~/.config/zsh
+: 1670681098:0;cd .config/zsh
+: 1670681134:0;mv zsh zsh.bak
+: 1670681238:0;rm *.mp4
+: 1670681539:0;rm .node_repl_history .python_history .wget-hsts .vim-bookmarks
+: 1670681543:0;yel
+: 1670682153:0;playerctl pause
+: 1670682157:0;playerctl list
+: 1670682165:0;playerctl status
+: 1670682171:0;playerctl metadata
+: 1670682182:0;playerctld
+: 1670682245:0;playerctl --list-all
+: 1670682361:0;playerctl --all-players
+: 1670682587:0;cd .config/hypr/scripts
+: 1670682595:0;cd pro
+: 1670682597:0;gh repo clone madprops/empris
+: 1670682602:0;cd empris
+: 1670682607:0;./empris.py
+: 1670682612:0;python empris.py
+: 1670682679:0;cp empris.py ~/.local/bin
+: 1670682686:0;cd .lo
+: 1670682688:0;cd bin
+: 1670682707:0;mv empris.py empris
+: 1670682714:0;chmod +x empris
+: 1670682717:0;./empris
+: 1670682745:0;cp projects/empris/empris.py ~/.config/hypr/scripts
+: 1670682820:0;killall -9 waybar
+: 1670682850:0;python /home/rishabh/.config/hypr/scripts/empris.py
+: 1670682990:0;waybar
+: 1670683466:0;cd projects
+: 1670683468:0;gh repo clone M3NIX/rofi-spotify
+: 1670683591:0;pip install -r requirements.txt --user
+: 1670683616:0;cd rofi-spotify
+: 1670683725:0;./rofi-spotify.py
+: 1670683743:0;./rofi-spotify.py --setup
+: 1670683901:0;cdp
+: 1670683904:0;rm -rf rofi-spotify
+: 1670683906:0;ll
+: 1670684323:0;time $SHELL -i -c exit
+: 1670684328:0;c
+: 1670684335:0;build-fzf-tab-module
+: 1670684461:0;nv
+: 1670684483:0;e
+: 1670686008:0;nv
+: 1670686015:0;cd zsh-configs
+: 1670686016:0;ll
+: 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
+: 1670686034:0;ll
+: 1670686039:0;zshc
