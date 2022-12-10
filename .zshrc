@@ -10,6 +10,7 @@ fi
 autoload -Uz plug
 
 # all the good stuff
+plug ~/.config/zsh/aliases.zsh
 plug ~/.config/zsh/supercharge.zsh
 
 # evals needed for apps
@@ -23,13 +24,8 @@ plug "zap-zsh/vim"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 plug "Aloxaf/fzf-tab"
-# plug "Freed-Wu/fzf-tab-source"
-plug "zap-zsh/fzf"
-
-# source stuff
-plug ~/.config/zsh/aliases.zsh
-plug "MichaelAquilina/zsh-autoswitch-virtualenv"
-plug ~/.local/share/zap/plugins/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
+plug "Freed-Wu/fzf-tab-source"
+plug "Rishabh672003/zsh-autoswitch-virtualenv"
 
 # Comp stuff and autoloading them
 autoload -Uz compinit

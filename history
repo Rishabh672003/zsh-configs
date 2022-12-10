@@ -1449,7 +1449,6 @@ fi;\
 : 1669518694:0;cd ftplugin
 : 1669518694:0;rm c.lua
 : 1669518694:0;lv a.c
-: 1669518694:0;cd python-study
 : 1669518694:0;nv 10.py
 : 1669518694:0;mv lvim lvim.old
 : 1669518694:0;mkdir ~/.config/lvim
@@ -1597,12 +1596,10 @@ onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
 : 1669743489:0;neofetch --help
 : 1669743537:0;neofetch --ascii source ascii-arch
 : 1669823446:0;
-: 1669824272:0;ls
 : 1669824328:0;mkdir -p "$HOME/.zsh"\
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669824496:0;nvim ~/.config/nvim/init.lua
 : 1669824800:0;zap -u
-: 1669824809:0;cd .local/share/zap
 : 1669829858:0;awk '!seen[$0]++' history > history
 : 1669830507:0;nv history
 : 1669830594:0;nv b
@@ -1621,7 +1618,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669991736:0;yay -S arduino-ide-bin
 : 1669992701:0;rm Arduino
 : 1669992706:0;rm -rf Arduino
-: 1669996922:0;cd .config/zsh
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
 : 1669996969:0;zcompile supercharge.zsh
 : 1670001092:0;ac
@@ -1809,31 +1805,30 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670642454:0;rm *.out
 : 1670642460:0;nv card_game.c
 : 1670646635:0;ping 8.8.8.8
-: 1670646705:0;cd
 : 1670647250:0;lv a.py
 : 1670647594:0;nv a.py
 : 1670653599:0;ys
 : 1670653833:0;rm a.log a.py
-: 1670654517:0;exec zsh
 : 1670654634:0;p
-: 1670654671:0;zshc
 : 1670654716:0;sdr
-: 1670655484:0;time $SHELL -i -c exit
-: 1670655553:0;nv
 : 1670655565:0;cd projects/zsh-configs
 : 1670655568:0;nv install.sh
-: 1670655579:0;lg
-: 1670655591:0;ll
-: 1670655592:0;c
-: 1670655635:0;e
-: 1670655639:0;cd
-: 1670655642:0;zshc
-: 1670656012:0;ls
 : 1670656013:0;nv
-: 1670656024:0;ll
 : 1670656025:0;time $SHELL -i -c exit
 : 1670656033:0;nv ~/projects/zsh-configs
-: 1670656059:0;zshc
 : 1670656062:0;ls
-: 1670656064:0;lg
 : 1670656070:0;zshc
+: 1670665407:0;cp -r ~/projects/zsh-configs ~/.config/zsh
+: 1670665414:0;cd .config/zsh
+: 1670665416:0;lg
+: 1670665463:0;nv ~/.config/zsh/.zshrc
+: 1670665521:0;cd .local/share/zap
+: 1670665524:0;rm plugins
+: 1670665527:0;rm -rf plugins
+: 1670665529:0;exec zsh
+: 1670665546:0;cd
+: 1670665549:0;cd python-study
+: 1670665622:0;c
+: 1670665660:0;ll
+: 1670665667:0;e
+: 1670665675:0;zshc
