@@ -1615,7 +1615,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669831057:0;rm zsh-configs
 : 1669831061:0;rm -rf zsh-configs
 : 1669831072:0;rm history
-: 1669831080:0;cd projects/zsh-configs
 : 1669908553:0;nv a
 : 1669915388:0;cd learning-C
 : 1669991708:0;yay -Rns arduino
@@ -1625,7 +1624,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1669996922:0;cd .config/zsh
 : 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
 : 1669996969:0;zcompile supercharge.zsh
-: 1669996997:0;zshc
 : 1670001092:0;ac
 : 1670001121:0;yay -R paru
 : 1670002155:0;paccache -rk0
@@ -1703,7 +1701,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670124695:0;top
 : 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
 : 1670128516:0;yay -S paru
-: 1670128526:0;p
 : 1670132757:0;nv launch.sh
 : 1670134340:0;bv
 : 1670134661:0;cd .config/hypr/scripts
@@ -1732,7 +1729,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670261794:0;gtnv
 : 1670261959:0;ngit
 : 1670262062:0;nv README.md
-: 1670262210:0;nv install.sh
 : 1670262549:0;pacman -Qq | fzf
 : 1670262876:0;uneo
 : 1670263322:0;sdp
@@ -1778,13 +1774,11 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670432759:0;cp -r college_C_stuff ~/projects/learning-C
 : 1670432762:0;cd pro
 : 1670432763:0;cd lea
-: 1670432765:0;lg
 : 1670433186:0;cd college_C_stuff
 : 1670433189:0;./swap2.out
 : 1670433222:0;./college_C_stuff/swap2.out
 : 1670522219:0;cd nvim-
 : 1670522223:0;nv .
-: 1670522621:0;sdr
 : 1670522981:0;python
 : 1670523720:0;wf-recorder -g "$(slurp)" -f cd2.mp4
 : 1670523729:0;wf-recorder -g "$(slurp)" -f nvim.mp4
@@ -1820,12 +1814,17 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670647594:0;nv a.py
 : 1670653599:0;ys
 : 1670653833:0;rm a.log a.py
-: 1670653834:0;ll
-: 1670653836:0;c
-: 1670653839:0;nv
 : 1670654517:0;exec zsh
-: 1670654520:0;time $SHELL -i -c exit
-: 1670654522:0;e
-: 1670654631:0;time $SHELL -i -c exit
 : 1670654634:0;p
 : 1670654671:0;zshc
+: 1670654716:0;sdr
+: 1670655484:0;time $SHELL -i -c exit
+: 1670655553:0;nv
+: 1670655565:0;cd projects/zsh-configs
+: 1670655568:0;nv install.sh
+: 1670655579:0;lg
+: 1670655591:0;ll
+: 1670655592:0;c
+: 1670655635:0;e
+: 1670655639:0;cd
+: 1670655642:0;zshc
