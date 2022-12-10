@@ -1828,3 +1828,12 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670655635:0;e
 : 1670655639:0;cd
 : 1670655642:0;zshc
+: 1670656012:0;ls
+: 1670656013:0;nv
+: 1670656024:0;ll
+: 1670656025:0;time $SHELL -i -c exit
+: 1670656033:0;nv ~/projects/zsh-configs
+: 1670656059:0;zshc
+: 1670656062:0;ls
+: 1670656064:0;lg
+: 1670656070:0;zshc
