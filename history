@@ -502,16 +502,13 @@ vim .config/newm/config.py
 : 1671298037:0;zcompile --help
 : 1671298052:0;zcompile zsh-autosuggestions.plugin.zsh zsh-autosuggestions.zsh
 : 1671298158:0;cd plugins/fzf-tab-source
-: 1671298163:0;nv .gitignore
 : 1671298230:0;lllll
 : 1671298249:0;zcompile fzfcdp
 : 1671298254:0;zap -u
 : 1671298282:0;cd fzf-tab
 : 1671298290:0;zcompile fzf-tab.plugin.zsh
 : 1671298299:0;nv
-: 1671298305:0;cdp
 : 1671298311:0;nv zap.zsh
-: 1671298407:0;cd vim
 : 1671298442:0;cd .local/share/zap
 : 1671298444:0;cd plugins
 : 1671298449:0;cd zsh-autopair
@@ -532,17 +529,37 @@ vim .config/newm/config.py
 : 1671338081:0;cz
 : 1671338180:0;cd neo
 : 1671338439:0;cd zsh
-: 1671338443:0;zshc
 : 1671338503:0;rm -rf git.plugin.zsh
-: 1671338521:0;lg
 : 1671338556:0;rm git.plugin.zsh
 : 1671338571:0;cdd zsh
 : 1671338579:0;zcompile .zshrc
-: 1671338587:0;time $SHELL -i -c exit
-: 1671338601:0;c
 : 1671339024:0;nv README.md
 : 1671339154:0;cd .cache
-: 1671339154:0;ll
-: 1671339361:0;e
 : 1671339378:0;cp README.md ~/.config/zsh
 : 1671339380:0;zshc
+: 1671339395:0;cd .local
+: 1671339399:0;cd share/zap/plugins
+: 1671339405:0;cd zsh-autoswitch-virtualenv
+: 1671339411:0;nv .gitignore
+: 1671339458:0;lg
+: 1671339476:0;zcompile zsh-autoswitch-virtualenv.zsh
+: 1671339502:0;cd vim
+: 1671339512:0;cdp
+: 1671339519:0;zcompile zap.zsh
+: 1671339520:0;ll
+: 1671339532:0;c
+: 1671339539:0;time $SHELL -i -c exit
+: 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
+: 1671339559:0;e
+: 1671340182:0;nv
+: 1671340682:0;cz
+: 1671340688:0;yl
+: 1671340703:0;ngit
+: 1671340705:0;lg
+: 1671341747:0;c
+: 1671341747:0;cd
+: 1671341748:0;c
+: 1671341804:0;cdd zsh
+: 1671341806:0;ll
+: 1671341808:0;nv README.md
+: 1671342482:0;zshc
