@@ -36,6 +36,8 @@ rm -rf $HOME/.local/share/zap $HOME/.config/zsh $HOME/.cache/zsh $HOME/.cache/p1
 
 ## Plugins
 
+### Thanks to all the plugin authors for making my life easier and for there awesome work
+
 - [zap](https://github.com/zap-zsh/zap)
 - [vim](https://github.com/zap-zsh/vim)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
