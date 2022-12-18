@@ -67,7 +67,6 @@
 : 1669518694:0;yay -R exa
 : 1669518694:0;exa
 : 1669518694:0;yay -S exa
-: 1669518694:0;cd .cache
 : 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 : 1669518694:0;nv --startuptime a.lua
 : 1669518694:0;yay -S ticktick
@@ -108,7 +107,6 @@
 : 1669519660:0;plug ~/.config/zsh/.zshrc
 : 1669519716:0;yay -S hybridbar
 : 1669519730:0;yay hybrid
-: 1669525637:0;nv zap.zsh
 : 1669525807:0;nvc ~/.config/zsh/history
 : 1669525981:0;rm a.log a.lua
 : 1669529428:0;./while.out
@@ -345,7 +343,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670606232:0;ls -lat --full-time created /etc |tail
 : 1670606237:0;ls -la /etc |tail
 : 1670606254:0;ls -alct /|tail -1|awk '{print $6, $7, $8}'
-: 1670606276:0;lsblk
 : 1670606314:0;sudo tune2fs -l /dev/nvme0n1p1 | grep 'Filesystem created:'
 : 1670606323:0;sudo tune2fs -l /dev/nvme0n1p5 | grep 'Filesystem created:'
 : 1670606358:0;nap
@@ -369,7 +366,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670665524:0;rm plugins
 : 1670665527:0;rm -rf plugins
 : 1670665549:0;cd python-study
-: 1670678230:0;cz
 : 1670679306:0;cll
 : 1670681090:0;mv ~/.config/zsh
 : 1670681238:0;rm *.mp4
@@ -400,7 +396,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670683904:0;rm -rf rofi-spotify
 : 1670686015:0;cd zsh-configs
 : 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
-: 1670686039:0;zshc
 : 1670686754:0;cd .lo
 : 1670686756:0;cd bin
 : 1670686763:0;mv empris empris.py
@@ -479,7 +474,6 @@ vim .config/newm/config.py
 : 1671205196:0;touch ~/.config/lazygit/config.yml
 : 1671205203:0;nv ~/.config/lazygit/config.yml
 : 1671205514:0;cd neovim
-: 1671205683:0;cd neo
 : 1671206017:0;ls
 : 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
 
@@ -488,7 +482,6 @@ vim .config/newm/config.py
 : 1671212665:0;rm -rf *arduino*
 : 1671212703:0;rm -rf *Arduino*
 : 1671249815:0;uneo
-: 1671256406:0;ys
 : 1671280789:0;we
 : 1671280865:0;cd .config
 : 1671280873:0;mv zsh zsh.bak
@@ -496,51 +489,58 @@ vim .config/newm/config.py
 : 1671281553:0;rm -rf ~/.local/share/zsh
 : 1671281580:0;rm -rf .local/share/zinit
 : 1671283758:0;nr
-: 1671288041:0;zap -u
 : 1671288569:0;a
 : 1671288572:0;time pfetch
 : 1671295325:0;man zshmodules
 : 1671295416:0;build-fzf-tab-module
-: 1671295557:0;cd .config/zsh
 : 1671295564:0;cd cd
-: 1671295590:0;rm -rf ~/.local/share/zap/plugins
-: 1671296150:0;cd vim
 : 1671296154:0;nv vim.plugin.zsh
-: 1671296184:0;cd
-: 1671297740:0;nv
 : 1671297903:0;cd zsh.bak2
 : 1671297911:0;nv .zshrc
 : 1671297957:0;zcompile ~/.local/share/zap/plugins/fzf-tab-source/fzf-tab-source.plugin.zsh
-: 1671297974:0;cd fzf-tab
-: 1671297977:0;cdp
 : 1671297981:0;cd fzf-tab-source
-: 1671297994:0;nv .gitignore
-: 1671298012:0;cd .local/share/zap
-: 1671298015:0;cd plugins
 : 1671298022:0;cd zsh-autosuggestions
 : 1671298037:0;zcompile --help
 : 1671298052:0;zcompile zsh-autosuggestions.plugin.zsh zsh-autosuggestions.zsh
-: 1671298053:0;ll
-: 1671298059:0;lg
-: 1671298074:0;time $SHELL -i -c exit
-: 1671298081:0;c
-: 1671298081:0;e
-: 1671298084:0;cd .local/share/zap
-: 1671298085:0;ll
-: 1671298087:0;cd plugins
-: 1671298087:0;ll
-: 1671298095:0;cd fzf-tab
-: 1671298096:0;ll
-: 1671298098:0;cd
 : 1671298101:0;cd .cache
-: 1671298101:0;ll
-: 1671298107:0;c
-: 1671298108:0;cz
-: 1671298121:0;ll
-: 1671298130:0;nv
-: 1671298148:0;cd
-: 1671298151:0;cd .local/share/zap
 : 1671298158:0;cd plugins/fzf-tab-source
-: 1671298159:0;ll
 : 1671298163:0;nv .gitignore
 : 1671298200:0;zshc
+: 1671298230:0;lllll
+: 1671298249:0;zcompile fzfcdp
+: 1671298254:0;zap -u
+: 1671298282:0;cd fzf-tab
+: 1671298290:0;zcompile fzf-tab.plugin.zsh
+: 1671298299:0;nv
+: 1671298305:0;cdp
+: 1671298311:0;nv zap.zsh
+: 1671298407:0;cd vim
+: 1671298442:0;cd .local/share/zap
+: 1671298444:0;cd plugins
+: 1671298449:0;cd zsh-autopair
+: 1671298545:0;rm -rf ~/.local/share/zap/plugins
+: 1671298915:0;cd zsh
+: 1671298918:0;cd
+: 1671298920:0;cd .config/zsh
+: 1671298930:0;zcompile aliases.zsh
+: 1671299227:0;lsblk
+: 1671300174:0;cd /boot
+: 1671300180:0;cd efi
+: 1671300190:0;cd EFI
+: 1671300315:0;efibootmgr
+: 1671300375:0;sudo efibootmgr
+: 1671337742:0;ys
+: 1671337797:0;cd wall
+: 1671337847:0;echo $XDG_CURRENT_DESKTOP
+: 1671337871:0;cd ~root
+: 1671337943:0;c
+: 1671338081:0;cz
+: 1671338169:0;lg
+: 1671338180:0;cd neo
+: 1671338386:0;ll
+: 1671338387:0;time $SHELL -i -c exit
+: 1671338389:0;e
+: 1671338438:0;c
+: 1671338439:0;cd zsh
+: 1671338440:0;ll
+: 1671338443:0;zshc

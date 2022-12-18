@@ -20,11 +20,11 @@ eval "$(zoxide init zsh)"
 # The order is important so dont change it if you dont know what you are doing
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
-plug "zap-zsh/vim"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
+plug "zap-zsh/vim"
 plug "Rishabh672003/zsh-autoswitch-virtualenv"
 
 # Comp stuff and autoloading them
@@ -33,17 +33,6 @@ for dump in "${ZDOTDIR:-$HOME}/.zcompdump"(N.mh+24); do
     compinit
 done
 compinit -C
-
-# all the completion stuff
-zstyle ':completion:*:git-checkout:*' sort false
-zstyle ':completion:*:descriptions' format '[%d]'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
-zstyle ':fzf-tab:*' switch-group ',' '.'
-zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
-zstyle ':fzf-tab:complete:*:*' fzf-preview 'less ${(Q)realpath}'
-zstyle -d ':completion:*' format
-zstyle ':completion:*:descriptions' format '[%d]'
 
 # theme
 plug "romkatv/powerlevel10k"
