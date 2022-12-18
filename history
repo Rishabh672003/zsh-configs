@@ -426,7 +426,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 : 1670765390:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
 : 1670765436:0;nvim
 : 1670765616:0;rm -rf .git
-: 1670765620:0;nv .
 : 1670766071:0;wf-recorder -g "$(slurp)" -f newm.mp4
 : 1670766153:0;wlogout
 : 1670766286:0;firefox
@@ -537,18 +536,19 @@ vim .config/newm/config.py
 : 1671339502:0;cd vim
 : 1671339512:0;cdp
 : 1671339519:0;zcompile zap.zsh
-: 1671339539:0;time $SHELL -i -c exit
 : 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
 : 1671340182:0;nv
 : 1671340682:0;cz
 : 1671340688:0;yl
 : 1671340703:0;ngit
 : 1671341747:0;cd
-: 1671341748:0;c
 : 1671341804:0;cdd zsh
-: 1671341806:0;ll
-: 1671341808:0;nv README.md
-: 1671342482:0;zshc
-: 1671342483:0;lg
-: 1671342515:0;e
 : 1671342559:0;zshc
+: 1671342560:0;lg
+: 1671351515:0;nv README.md
+: 1671351603:0;nv .
+: 1671351657:0;ll
+: 1671351659:0;time $SHELL -i -c exit
+: 1671351660:0;c
+: 1671351661:0;e
+: 1671351750:0;zshc
