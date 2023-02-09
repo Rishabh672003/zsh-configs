@@ -1,554 +1,762 @@
-: 1670855649:0;    for i in $(seq 1 10); do time $shell -i -c exit; done\
+cd no_name
+mv ISE-2.md ..
+nv ise
+nv ISE-2.md
+mv WMP\ ISE-2.pdf ~/Clg-Notes
+cd Notes
+mv .git ~/Clg-Notes
+gcc -o mat.out mat.c
+./mat.out
+rm mat.out
+rm -rf Notes
+gh repo clone Rishabh672003/Notes
+cp pps-notes-module4.md ~/projects/Notes
+cp pps-notes-module-5.md ~/projects/Notes
+cd no
+nv pract.c
+cp pps-module-6.md pps-notes-module4.md pps-notes-module-5.md ~/projects/Notes
+nv dob.c
+yay webcord
+./2nd.out
+./age-limit.out
+./codechef/age-limit.out
+./water.out
+./codechef/water.out
+rm fitness.out
+./fitness.out
+gh repo clone tpope/vim-fugitive
+cd vim-fugitive
+rm -rf vim-fugitive
+yay -R bob-bin
+./bob
+./bob use nightly
+pwd
+bob rollback d85ed00a8cc2274eff4409e2b18ba34178ae567a
+cp ~/projects/bob/target/debug/bob ~/.local/bin
+cd target/debug/
+bobb
+git checkout origin/feat/rollback
+./1st-contest.out
+rm 1st-contest.out
+cdd
+Zoxide --interactive
+zoxide --interactive
+z --help
+zoxide --help
+./mana.out
+rm mana.out
+rm -rf *.out codechef/*.out college_C_stuff/*.out
+zap -u
+zap update
+rm -rf LuaSnip
+m
+spicetify backup restore apply
+nvim --version
+pacman -Q | fzf
+yay hyprland
+mpvpaper -vs -o "no-audio loop" eDP-1 Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
+yt "https://www.youtube.com/watch?v=_AiJpvergBI"
+fd falling
+wf-recorder -g "$(slurp)" -f ~/pac-lazy2.mp4
+wf-recorder -g "$(slurp)" -f ~/mpvpaper.mp4
+mv hacker-rank ..
+rm -rf *.out codechef/*.out college_C_stuff/*.out hacker-rank/*.out
+rm -rf *.out codechef/*.out college_C_stuff/*.out hacker-rank/*.out contest/*.out
+rm -rf codechef/*.out college_C_stuff/*.out hacker-rank/*.out contest/*.out
+rm -rf hacker-rank/*.out contest/*.out
+ws
+bob use 0.8.2
+cd zsh-autoswitch-virtualenv.zsh
+rm -rf zsh-autoswitch-virtualenv
+cd zsh-autoswitch-virtualenv
+mv autoswitch_virtualenv.plugin.zsh zsh-autoswitch-virtualenv.zsh
+cd ftplugin
+nv markdown.lua
+rm markdown.lua
+sdp
+rm -rf basilioss\ dotfiles\ main\ .config-neofetch AmitGolden\ dotfiles\ main\ .config-wlogout
+rm -rf chrome-gnome-shell bigfile.txt clangd.lua blur-edges.lua cmp.lua Cricket-Score-Sheet conio.h elixir form.lua Health-Care-Organisation-System- lazy.lua lazyvim lvim minimal minimal.lua my-cat my-catppuccin neovim-1 Neovim Neovim-from-scratch nvim-0.8-stable
+chmod +x open-wl
+./open-wl brave
+rm .stylua.toml
+ncdu
+yay discord
+chmod +x time.sh
+nv time.sh
+./time.sh
+nv --help
+yay -S wl-clipboard
+nvim --clean a.cpp
+wf-recorder -g "$(slurp)" -f ~/cpp-issue.mp4
+nv --clean a.cpp
+vscodium a.cpp
+vim a.cpp
+wf-recorder -g "$(slurp)" -f ~/cpp-issue-vim.mp4
+hx a.cpp
+cd Downloads/Martian_Mono
+cp MartianMono-VariableFont_wdth,wght.ttf ~/.local/share/fonts
+fc-cache -fv
+kitty ls-fonts
+cd nvi
+vn
+cd lazy/project.nvim
+nv lua/telescope/_extensions
+cd .local/share/nvim
+cd lazy
+tpg
+nvim -v
+nv used
+bob use nightly && nv -v
+cd projects/bob
+cd codechef
+mkdir cprac
+cd cprac
+nv loop-sum.c
+unzip WhatsApp\ Unknown\ 2023-01-30\ at\ 8.58.31\ AM.zip
+mkdir whatsapp
+mv WhatsApp\ Image\ 2023-01-28* whatsapp
+cd whatsapp
+shotwell .
+rm -rf bob
+gh repo clone MordechaiHadad/bob
+git checkout feat/rollback
+mkdir nvim
+cp -r ~/.local/share/bob/nightly* nvim
+cp -r nightly-OkAnKrUS ~/.local/share/bob
+rm -rf ~/.local/share/bob/*
+rm -frf ~/.local/share/bob/*
+cd .local/share/bob
+nv bob.json
+cd ~/.local/share/neovim
+cd ~/.local/share
+rm neovim
+curl --help
+curl -O https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+rm nvim
+rm squashfs-root
+./nvim.appimage --appimage-extract
+./AppRun
+ls ~/.local/share/bob
+ls ~/.local/share/bob/nightly
+ls ~/.local/share/bob/nightly/nvim-linux64
+curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && ~/Applications/nvim.appimage --appimage-extract
+rm -rf squashfs-root nvim.appimage
+curl --output-dir ~/Applications/ -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage && cd ~/Applications && chmod +x nvim.appimage && ~/Applications/nvim.appimage --appimage-extract
+cd zap
+nv zap.zsh
+./nvim.appimage
+cd nightly
+./nvim-linux64/bin/nvim
+cd nvim-linux64/bin
+chmod +x nvim
+./nvim --version
+cd ~/.local/share/bob
+rm -rf nightly
+cp -r nightly ~/.local/share/bob
+cd .local/share/neovim
+nv qbit.sh
+cd .config/nvim
+cdd nvim
+wf-recorder -g "$(slurp)" -f ~/snippet.mp4
+wf-recorder -g "$(slurp)" -f ~/snippet2.mp4
+wf-recorder -g "$(slurp)" -f ~/snippet3.mp4
+wf-recorder -g "$(slurp)" -f ~/snippet4.mp4
+yay -S scc
+scc
+mkdir cppro
+cargo build
+time ls
+time ll
+bob install 0.8.2
+mkdir prac
+cargo uninstall
+cargo install
+rm -rf ~/.local/bin/bob
+yay bob-git
+yay bob
+cd prac
+gcc 3rd-prac.c -o test -lm
+yay -S bob
+yay -R bob
+cd bob
+git checkout main
+cp target/debug/bob ~/.local/bin/
+bob
+nv pps-prac.md
+cd projects/prac
+fd *.c
+fd .c
+cd pra
+cd Documents
+cd PPS\ Practical\ Exam
+gcc -o test Armstrong-Numbers.c
+nv 1.Armstrong\ Numbers.c
+nv Armstrong-Numbers.c
+cp projects/.clang-format .
+cd pps
+cd Exp\ 5
+nv 2.Prime\ Numbers.c
+nv inv2.c
+gh repo clone Rishabh672003/WEB web2
+cd web2
+cp ../WEB/README.md .
+gh pr create README.md
+gh repo set-default
+gh pr create -B
+gh pr create -w
+cd one
+one
+rm -rf nvim
+time exec zsh
+cd projects/Notes
+vim lua/rj/plugins/lsp/init.lua
+vim lua/rj/lazy.lua
+rm .replit replit.nix
+mkdir arduino
+cd codeche
+nv 1st.c
+nv 2nd-1st.ino
+gh repo clone Rishabh672003/arduino
+mv arduino/* projects/arduino
+rm -rf arduino
+cd projects/arduino
+nv chaser.ino
+cd arduino
+nv staircase.ino
+cf
+fzf
+rm a
+rm college_C_stuff/*.out hacker-rank/*.out contest/*.out codechef/*.out
+rm hacker-rank/*.out contest/*.out codechef/*.out
+rm contest/*.out codechef/*.out
+llll
+nv .gtkrc-2.0
+yay -R xfconf
+cd notes
+nv index.norg
+rm -rf notes
+nv test-luasnip.c
+glow
+gh repo clone amitsuthar69/WEB
+cp web2/README.md WEB
+cd WEB
+rm -rf WEB
+export $PATH
+yay -R python-pep517
+yay -c
+cd note
+cdd notes
+nv chem.md
+bob install 0.8.3
+gh repo clone Rishabh672003/Rishabh672003.github.io
+cd Rishabh672003.github.io
+mv SignUp\ and\ Login/* .
+rm -rf SignUp\ and\ Login
+rm -rf README.md
+ping 8.8.8.8
+nv /
+speedtest
+evince sem\ i\ ai\&ml_15.pdf
+cd web
+git pull
+cp README.md ..
+cali
+hx --version
+hx
+helix-git
+yay helix
+bob rollback
+lllllllllllllllllllllllllllllllllllllllllllllllll
+fish
+cd .cache
+rm p10k-*
+cz
+yay -S alacritty
+nv bible.txt
+export KITTY_ENABLE_WAYLAND=1
+cll
+kitty --ls-fonts
+kitty
+cd .config/fish
+cd functions
+rm -rf functions
+nv .gitignore
+nv ESE/chemistry.md
+cd getnf
+./getnf
+cc
+grep -IrFl $TERM <dir>
+echo $TERM
+p10k configure
+cd .config/zsh
+sls
+beautysh ~/.config/zsh/.p10k.zsh
+nvim --clean ~/.config/zsh/.p10k.zsh
+nv p10
+micro ~/.config/zsh/.p10k.zsh
+gedit
+vscodium
+cd code
+rm -rf *.out
+nv subscription.c
+mkdir bash-learning
+cd bash-learning
+nv math.bash
+mv bash-learning shell-learning
+cd shell-learning
+mv math.bash math-operation.sh
+cd shell
+mkdir .git
+nv math-operation.sh
+cd wall
+dc
+mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
+mkdir random-shit
+mkdir video-wallpapers
+cp Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4 video-wallpapers
+mv ~/Downloads/Waves\ -\ 71122.mp4 video-wallpapers
+rm Falling\ Into\ a\ Black\ Hole\ \(Simulation\)-_AiJpvergBI.mp4
+mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Waves\ -\ 71122.mp4
+cp ~/Downloads/Rain\ -\ 28236.mp4 ~/Videos/video-wallpapers
+mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Rain\ -\ 28236.mp4
+mv video-wallpapers/Rain\ -\ 28236.mp4 Rain-28236.mp4
+cd video-wallpapers
+mv ../Rain-28236.mp4 .
+swaybg -i ~/.config/hypr/wallpapers/main_image_star-forming_region_carina_nircam_final-5mb.jpg
+mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/water-pexels-adrien-jacta-6430233.mp4
+nv arm.c
+nwg-look
+pkill mpvpaper
+swaylack
+swaylock
+cd .config/hypr
+yay -S swaylock
+mpvpaper -vs -o "no-audio loop" eDP-1 ~/Videos/video-wallpapers/Rain-28236.mp4
+timezsh() {\
+ shell=${1-$SHELL}\
+ for i in $(seq 1 10); do time $shell -i -c exit; done\
 }\
 
-: 1669518694:0;rm a.lua
-: 1669518694:0;gh repo clone catppuccin/bat
-: 1669518694:0;mkdir -p "$(bat --config-dir)/themes"
-: 1669518694:0;cp *.tmTheme "$(bat --config-dir)/themes"
-: 1669518694:0;bat cache --build
-: 1669518694:0;bat --list-themes
-: 1669518694:0;bat --list-themes | grep "catppuccin"
-: 1669518694:0;bat --list-themes | grep "cat"
-: 1669518694:0;bat --list-themes | grep cat
-: 1669518694:0;cdd
-: 1669518694:0;cd bat
-: 1669518694:0;bat --config-file
-: 1669518694:0;nv config
-: 1669518694:0;bat config
-: 1669518694:0;bat init.lua
-: 1669518694:0;bat .bashrc
-: 1669518694:0;man trash
-: 1669518694:0;man man
-: 1669518694:0;cd .local/share/nvim/site/pack/packer/start/catppuccin/lua/catppuccin/groups/integrations/
-: 1669518694:0;nv which_key.lua
-: 1669518694:0;cd c
-: 1669518694:0;cc a.c
-: 1669518694:0;cd cpro
-: 1669518694:0;nv cpp
-: 1669518694:0;shut
-: 1669518694:0;yd
-: 1669518694:0;yay -S gnome-calculator
-: 1669518694:0;cd .con
-: 1669518694:0;cd lvim
-: 1669518694:0;cd .local/share/lunarvim/lvim/lua/lvim/lsp
-: 1669518694:0;nvim ~/.config/nvim/lua/user/keymaps.lua
-: 1669518694:0;cd .config/lvim
-: 1669518694:0;cd ftplugin
-: 1669518694:0;rm c.lua
-: 1669518694:0;lv a.c
-: 1669518694:0;nv 10.py
-: 1669518694:0;mv lvim lvim.old
-: 1669518694:0;mkdir ~/.config/lvim
-: 1669518694:0;cp ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua ~/.config/lvim/
-: 1669518694:0;cd lv
-: 1669518694:0;rm config.example.lua
-: 1669518694:0;lv config.lua
-: 1669518694:0;spicetify backup
-: 1669518694:0;spicetify restore backup
-: 1669518694:0;spicetify backup restore apply
-: 1669518694:0;rm -v a
-: 1669518694:0;cd /tmp
-: 1669518694:0;mkdir random
-: 1669518694:0;mkdir 1-100
-: 1669518694:0;cd 1-100
-: 1669518694:0;mkdir 1*0
-: 1669518694:0;gcc a.c
-: 1669518694:0;./a.out
-: 1669518694:0;rm s
-: 1669518694:0;touch a.txt
-: 1669518694:0;rm a.txt
-: 1669518694:0;zap update
-: 1669518694:0;systemctl daemon-reload
-: 1669518694:0;nv installed_plugins
-: 1669518694:0;/usr/bin/paru -Pw
-: 1669518694:0;cd plugins/exa
-: 1669518694:0;nv exa.plugin.zsh
-: 1669518694:0;ys exa
-: 1669518694:0;yay -R exa
-: 1669518694:0;exa
-: 1669518694:0;yay -S exa
-: 1669518694:0;compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-: 1669518694:0;nv --startuptime a.lua
-: 1669518694:0;yay -S ticktick
-: 1669518694:0;yay -S zenkit
-: 1669518694:0;zenkit
-: 1669518694:0;yay -R zenkit
-: 1669518694:0;yay todoist
-: 1669518694:0;ys ticktick
-: 1669518694:0;nvim --startuptime a.log
-: 1669518694:0;echo $?
-: 1669518694:0;gcc a.c -o a
-: 1669518694:0;./a
-: 1669518694:0;g++ --help
-: 1669518694:0;man g++
-: 1669518694:0;gcc b.c -o hello
-: 1669518694:0;./hello
-: 1669518694:0;rm hello
-: 1669518694:0;./d
-: 1669518694:0;gcc e.c -o e
-: 1669518694:0;./e
-: 1669518694:0;./switch
-: 1669518694:0;gcc switch.c -o switch2
-: 1669518694:0;./switch2
-: 1669518694:0;rm -rf cpro/.git
-: 1669518694:0;sudo mv * ~/projects/cpro
-: 1669518694:0;rm learning-C
-: 1669518694:0;rm -rf learning-C
-: 1669518694:0;rm switch
-: 1669518694:0;nv test.c
-: 1669518694:0;yay -S arduino
-: 1669518659:0;t
-: 1669518876:0;nv .config/zsh/
-: 1669518891:0;hx ~/.config/zsh/history
-: 1669518914:0;nv ~/.config/zsh/history
-: 1669519552:0;cd .config/rofi
-: 1669519555:0;nv config.rasi
-: 1669519652:0;plug ~/.config/zsh/supercharge.zsh
-: 1669519660:0;plug ~/.config/zsh/.zshrc
-: 1669519716:0;yay -S hybridbar
-: 1669519730:0;yay hybrid
-: 1669525807:0;nvc ~/.config/zsh/history
-: 1669525981:0;rm a.log a.lua
-: 1669529428:0;./while.out
-: 1669529479:0;rm while.out switch.out
-: 1669529502:0;./while
-: 1669529587:0;rm get.out
-: 1669529605:0;nv this.c
-: 1669529758:0;rm get*
-: 1669529766:0;rm this*
-: 1669529881:0;rm while while.cbase.out switch.cbase.out
-: 1669529895:0;rm while.out *.out
-: 1669530017:0;rm .out e
-: 1669530026:0;nv while.c
-: 1669530048:0;gh repo clone Rishabh672003/learning-C
-: 1669530137:0;rm while
-: 1669553820:0;time fish -i -c exit
-: 1669553860:0;cd .config/fish
-: 1669553866:0;nv config.fish
-: 1669553919:0;fish
-: 1669557590:0;cd ~/projects/Neovim
-: 1669557706:0;zap --clean
-: 1669557715:0;zap --update
-: 1669562598:0;rm test.c test.out
-: 1669562601:0;cd test
-: 1669562608:0;cd zap
-: 1669562610:0;one
-: 1669562743:0;mv .gitignore ../
-: 1669562766:0;mv ../.gitignore .
-: 1669571021:0;Neovim
-: 1669571135:0;cd ..
-: 1669571177:0;cd Neovim
-: 1669571179:0;\
-onefetch -l | while read line; do echo "$line"; onefetch -a $line; done;
-: 1669572294:0;cd lua/user/plugins.lua
-: 1669572297:0;cd lua/user/
-: 1669572426:0;cd projects/nvim-basic-ide
-: 1669572509:0;git config pull.rebase true
-: 1669572516:0;git pull
-: 1669572534:0;rm -rf nvim-basic-ide
-: 1669572547:0;gh repo clone lunarvim/nvim-basic-ide
-: 1669572557:0;cd nvim-basic-ide
-: 1669572681:0;cd .config/nvim/lua/user/plugins.lua
-: 1669572683:0;cd .config/nvim/lua/user/
-: 1669572861:0;nv plugins.lua
-: 1669734272:0;hyprctl devices
-: 1669734276:0;hyprctl help
-: 1669734450:0;git bisect
-: 1669734454:0;git bisect start
-: 1669734484:0;git bisect reset
-: 1669734568:0;yay -S hyprland-bin
-: 1669734634:0;yay -S hyprland-git
-: 1669734661:0;yay hyprland
-: 1669743157:0;tar -xvf basilioss\ dotfiles\ main\ .config-neofetch.zip
-: 1669743164:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip
-: 1669743222:0;rm -rf ascii-* config2.conf
-: 1669743230:0;mv basilioss\ dotfiles\ main\ .config-neofetch.zip ~/projects
-: 1669743237:0;cd Provisional\ Admission\ Letter\ to\ B.Tech.\ Chemical\ Engineering\ offered\ at\ MIT-WPU\ Faculty\ of\ Engineering\ and\ Technology\ for\ Batch\ 2022-2026.eml
-: 1669743251:0;unzip basilioss\ dotfiles\ main\ .config-neofetch.zip neofetch
-: 1669743355:0;cd .config/neofetch
-: 1669743367:0;mv config.conf config2.conf
-: 1669743378:0;mv ~/projects/basilioss\ dotfiles\ main\ .config-neofetch/* .
-: 1669743386:0;nv config.conf
-: 1669743452:0;nv ascii-arch
-: 1669743478:0;neofetch help
-: 1669743484:0;neofetch -h
-: 1669743489:0;neofetch --help
-: 1669743537:0;neofetch --ascii source ascii-arch
-: 1669823446:0;
-: 1669824328:0;mkdir -p "$HOME/.zsh"\
-git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
-: 1669824496:0;nvim ~/.config/nvim/init.lua
-: 1669829858:0;awk '!seen[$0]++' history > history
-: 1669830507:0;nv history
-: 1669830594:0;nv b
-: 1669830699:0;nv .zshenv
-: 1669830722:0;zrecompile
-: 1669831029:0;lv .gitignore
-: 1669831057:0;rm zsh-configs
-: 1669831061:0;rm -rf zsh-configs
-: 1669831072:0;rm history
-: 1669908553:0;nv a
-: 1669915388:0;cd learning-C
-: 1669991708:0;yay -Rns arduino
-: 1669991736:0;yay -S arduino-ide-bin
-: 1669992701:0;rm Arduino
-: 1669992706:0;rm -rf Arduino
-: 1669996953:0;rm .zcompdump.zwc supercharge.zsh.zwc
-: 1669996969:0;zcompile supercharge.zsh
-: 1670001092:0;ac
-: 1670001121:0;yay -R paru
-: 1670002155:0;paccache -rk0
-: 1670002194:0;fd hook
-: 1670002283:0;tar -xvf transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz
-: 1670002299:0;cd transmission-4.0.0-beta.2.dev+r728e5b8350
-: 1670002314:0;cd gtk
-: 1670002380:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350.tar.xz transmission-4.0.0-beta.2.dev+r728e5b8350
-: 1670002397:0;rm transmission-4.0.0-beta.2.dev+r728e5b8350
-: 1670002402:0;rm -rf transmission-4.0.0-beta.2.dev+r728e5b8350
-: 1670002411:0;tar -xvf transmission-4.0.0-beta.2+rbceb368f1b.tar.xz
-: 1670002417:0;cd transmission-4.0.0-beta.2+rbceb368f1b
-: 1670002467:0;make
-: 1670002472:0;lll
-: 1670002484:0;cmake
-: 1670002488:0;cmake make
-: 1670002501:0;cmake cmake
-: 1670002554:0;cd tra
-: 1670002629:0;yay -S transmission-gtk-git
-: 1670002682:0;rm -rf transmission-4.0.0-beta.2+rbceb368f1b*
-: 1670002749:0;./nap
-: 1670002756:0;rm nap
-: 1670002815:0;hx
-: 1670035996:0;yay -R transmission-gtk-git
-: 1670036002:0;paccache -ruk0
-: 1670036083:0;pacman -Qi waybar-hyprland
-: 1670036102:0;yay waybar-hyprland
-: 1670040470:0;yay xclip
-: 1670040497:0;echo "hello" | xclip
-: 1670040508:0;wl-copy
-: 1670040527:0;pacman -Qi wl-clipboard
-: 1670040780:0;pacman -Qi scrot
-: 1670040795:0;pacman -Qi grim
-: 1670040881:0;pacman -Qi swappy
-: 1670041082:0;pacman -Qi slurp
-: 1670049507:0;yay -S kitty
-: 1670049527:0;kitty --help
-: 1670049548:0;man kitty
-: 1670049593:0;kitty --hold sh -c "echo hello, world"
-: 1670049603:0;kitty --hold sh -c "nvim"
-: 1670049628:0;kitty --hold sh -c nvim
-: 1670049939:0;bash kitty.sh
-: 1670049950:0;bash kitty.sh ~/.config/zsh/install.sh
-: 1670050831:0;n
-: 1670050837:0;f
-: 1670053026:0;cd /mnt/windows/
-: 1670062219:0;cd projects/cpro
-: 1670063223:0;nv ~/.config/nvim/lua/user/plugins.lua
-: 1670063238:0;nv ~/.config/nvim/init.lua
-: 1670063268:0;sudo make distclean
-: 1670063275:0;sudo make uninstall
-: 1670063318:0;sudo make clean
-: 1670063344:0;nnvim
-: 1670063971:0;nv ~/projects/cpro
-: 1670083900:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim $HOME/.cache/nvim
-: 1670084180:0;rm -rf $HOME/.config/nvim
-: 1670084326:0;cd nvim
-: 1670084340:0;rm -rf .git README.md LICENSE
-: 1670090230:0;yay wlogout
-: 1670090263:0;cd down
-: 1670090328:0;cd AmitGolden\ dotfiles\ main\ .config-wlogout
-: 1670090349:0;cp -r AmitGolden\ dotfiles\ main\ .config-wlogout ~/.config/wlogout
-: 1670090358:0;cd ~/.config/wlogout
-: 1670090527:0;nvim ~/.config/waybar/config.jsonc
-: 1670124560:0;yadm pull
-: 1670124609:0;cd .config/zs
-: 1670124685:0;rm .zcompdump .zcompdump.zwc
-: 1670124695:0;top
-: 1670126410:0;sudo rm /usr/lib/python3.10/site-packages/cairo/__pycache__/__init__.cpython-310.pyc
-: 1670128516:0;yay -S paru
-: 1670132757:0;nv launch.sh
-: 1670134340:0;bv
-: 1670134669:0;chmod +x launch.sh
-: 1670134672:0;./launch.sh
-: 1670150422:0;ws
-: 1670151100:0;nv Cofee_Shop.json
-: 1670154437:0;mv Cofee_Shop.json projects
-: 1670154443:0;rm Cofee_Shop.json
-: 1670158307:0;git log
-: 1670160759:0;nv card_game_advanced.c
-: 1670170114:0;tpg
-: 1670171403:0;mv shigeo-kageyama-rage-mob-psycho-100-4k-3840Ãƒ·2160.jpg ~/.config/hypr/wallpapers
-: 1670171452:0;hyp
-: 1670175317:0;systemctl status auto-cpufreq.service
-: 1670261051:0;dunstctl history | head -n 100
-: 1670261792:0;cd Applications
-: 1670263322:0;sdp
-: 1670263414:0;yay xdph
-: 1670337559:0;cd projects/learning-C
-: 1670337703:0;nv marks.c
-: 1670337711:0;nv marks.docx
-: 1670339149:0;cd lear
-: 1670340081:0;cp * ~/projects/cpro
-: 1670340088:0;cp -r * ~/projects/cpro
-: 1670340092:0;cd cpp
-: 1670340136:0;rm a.out
-: 1670340139:0;nv a.c
-: 1670341979:0;nv a.cpp
-: 1670346993:0;rm a a.out
-: 1670349172:0;dos2unix basic.c
-: 1670349354:0;ccd
-: 1670349367:0;nv operator.c
-: 1670349372:0;dos2unix *.c
-: 1670349377:0;nv basic.c
-: 1670381040:0;cfc
-: 1670389212:0;cn
-: 1670389218:0;lsusb
-: 1670389321:0;speedtest
-: 1670389880:0;l
-: 1670390391:0;cd py
-: 1670390399:0;nv equation-calculator.py
-: 1670391724:0;ls -l /dev/ttyACM*
-: 1670391726:0;ls -l /dev/ttyUSB*
-: 1670397037:0;sudo usermod -a -G tty /dev/ttyUSB0
-: 1670397091:0;usermod -a -G uucp rishabh
-: 1670397096:0;sudo usermod -a -G uucp rishabh
-: 1670397107:0;sudo usermod -a -G dialout rishabh
-: 1670397115:0;sudo arduino-ide
-: 1670403413:0;nvim -v
-: 1670403468:0;cf
-: 1670427381:0;cd Downloads
-: 1670427391:0;mkdir chem-tutorial
-: 1670427402:0;nautilus .
-: 1670432592:0;nv cp
-: 1670432737:0;ccc
-: 1670432759:0;cp -r college_C_stuff ~/projects/learning-C
-: 1670432763:0;cd lea
-: 1670433186:0;cd college_C_stuff
-: 1670433189:0;./swap2.out
-: 1670433222:0;./college_C_stuff/swap2.out
-: 1670522219:0;cd nvim-
-: 1670522981:0;python
-: 1670523720:0;wf-recorder -g "$(slurp)" -f cd2.mp4
-: 1670523729:0;wf-recorder -g "$(slurp)" -f nvim.mp4
-: 1670524107:0;rm a
-: 1670596627:0;yay -R ticktick
-: 1670606093:0;sudo tune2fs -l /dev/sda1 **OR** /dev/sdb1* | grep 'Filesystem created:'
-: 1670606108:0;sudo tune2fs -l /dev/nvme0n1p3 | grep 'Filesystem created:'
-: 1670606120:0;sudo tune2fs
-: 1670606123:0;sudo tune2fs l
-: 1670606126:0;sudo tune2fs -l
-: 1670606167:0;dumpe2fs $(mount | grep 'on \/ ' | awk '{print $1}') | grep 'Filesystem created:'
-: 1670606215:0;ls -lact --full-time /etc |tail
-: 1670606219:0;ls -lat --full-time /etc |tail
-: 1670606232:0;ls -lat --full-time created /etc |tail
-: 1670606237:0;ls -la /etc |tail
-: 1670606254:0;ls -alct /|tail -1|awk '{print $6, $7, $8}'
-: 1670606314:0;sudo tune2fs -l /dev/nvme0n1p1 | grep 'Filesystem created:'
-: 1670606323:0;sudo tune2fs -l /dev/nvme0n1p5 | grep 'Filesystem created:'
-: 1670606358:0;nap
-: 1670608994:0;cali
-: 1670642393:0;rm a.log
-: 1670642397:0;nv --startuptime a.log
-: 1670642401:0;nv a.log
-: 1670642442:0;cd cp
-: 1670642454:0;rm *.out
-: 1670642460:0;nv card_game.c
-: 1670646635:0;ping 8.8.8.8
-: 1670647250:0;lv a.py
-: 1670647594:0;nv a.py
-: 1670653833:0;rm a.log a.py
-: 1670654634:0;p
-: 1670655565:0;cd projects/zsh-configs
-: 1670655568:0;nv install.sh
-: 1670656033:0;nv ~/projects/zsh-configs
-: 1670665407:0;cp -r ~/projects/zsh-configs ~/.config/zsh
-: 1670665463:0;nv ~/.config/zsh/.zshrc
-: 1670665524:0;rm plugins
-: 1670665527:0;rm -rf plugins
-: 1670665549:0;cd python-study
-: 1670679306:0;cll
-: 1670681090:0;mv ~/.config/zsh
-: 1670681238:0;rm *.mp4
-: 1670681539:0;rm .node_repl_history .python_history .wget-hsts .vim-bookmarks
-: 1670682153:0;playerctl pause
-: 1670682157:0;playerctl list
-: 1670682165:0;playerctl status
-: 1670682171:0;playerctl metadata
-: 1670682182:0;playerctld
-: 1670682245:0;playerctl --list-all
-: 1670682361:0;playerctl --all-players
-: 1670682587:0;cd .config/hypr/scripts
-: 1670682595:0;cd pro
-: 1670682597:0;gh repo clone madprops/empris
-: 1670682602:0;cd empris
-: 1670682612:0;python empris.py
-: 1670682679:0;cp empris.py ~/.local/bin
-: 1670682707:0;mv empris.py empris
-: 1670682714:0;chmod +x empris
-: 1670682717:0;./empris
-: 1670682745:0;cp projects/empris/empris.py ~/.config/hypr/scripts
-: 1670682850:0;python /home/rishabh/.config/hypr/scripts/empris.py
-: 1670683468:0;gh repo clone M3NIX/rofi-spotify
-: 1670683591:0;pip install -r requirements.txt --user
-: 1670683616:0;cd rofi-spotify
-: 1670683725:0;./rofi-spotify.py
-: 1670683743:0;./rofi-spotify.py --setup
-: 1670683904:0;rm -rf rofi-spotify
-: 1670686015:0;cd zsh-configs
-: 1670686033:0;rm git.plugin.zsh functions.zsh .zlogin
-: 1670686754:0;cd .lo
-: 1670686756:0;cd bin
-: 1670686763:0;mv empris empris.py
-: 1670686768:0;./empris.py
-: 1670686804:0;python projects/empris
-: 1670686809:0;python projects/empris/empris.py
-: 1670686827:0;killall -9 rofi
-: 1670686844:0;killall -9 rofi || python projects/empris/empris.py
-: 1670687032:0;killall -9 waybar
-: 1670688036:0;waybar
-: 1670690003:0;pacman -Qq | fzf
-: 1670693041:0;rm .arduino15 .arduinoIDE
-: 1670693572:0;lvim
-: 1670693574:0;lv
-: 1670694210:0;cd zs
-: 1670694273:0;zcompile .zcompdump
-: 1670695467:0;ls -alt /|tail -1|awk '{print $6, $7, $8}'
-: 1670695512:0;cd pl
-: 1670695528:0;rm -rf zsh-autoswitch-virtualenv
-: 1670695554:0;rm -rf fzf-tab fzf-tab-source
-: 1670695557:0;exec zsh
-: 1670729300:0;curl https://nvim.sh/s
-: 1670740489:0;yay -S newm-git
-: 1670740504:0;yay newm
-: 1670743472:0;nb
-: 1670743898:0;git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
-: 1670765369:0;nv a.lua
-: 1670765384:0;rm -rf $HOME/.config/nvim $HOME/.local/share/nvim
-: 1670765390:0;git clone https://github.com/Rishabh672003/Neovim ~/.config/nvim && nvim
-: 1670765436:0;nvim
-: 1670765616:0;rm -rf .git
-: 1670766071:0;wf-recorder -g "$(slurp)" -f newm.mp4
-: 1670766153:0;wlogout
-: 1670766286:0;firefox
-: 1670767596:0;mkdir -p ~/.config/newm
-: 1670767748:0;rm $HOME/.config/newm/config.py
-: 1670767752:0;cd\
-mkdir -p .config/newm\
-cp .local/lib/pythonX.Y/site-packages/newm/default_config.py .config/newm/config.py\
-vim .config/newm/config.py
-: 1670767766:0;touch $HOME/.config/newm/config.py
-: 1670767768:0;nv $HOME/.config/newm/config.py
-: 1670767896:0;cd projects
-: 1670768011:0;cp open-wl ~/.local/bin
-: 1670768023:0;bash open-wl
-: 1670768029:0;bash
-: 1670855649:0;open-wl
-: 1670855649:0;exit
-: 1670768045:0;nv open-wl
-: 1670768060:0;cd /usr
-: 1670768065:0;cd local
-: 1670768093:0;open-wl brave
-: 1670768106:0;rm -rf ~/.local/bin/open-wl
-: 1670768366:0;start-newm -d
-: 1670768398:0;rm open-wl.sh newm.mp4
-: 1670781685:0;cd .config/nvim
-: 1670781694:0;yel
-: 1670782570:0;cd nv
-: 1670782578:0;rm -rf ftplugin/py.lua
-: 1670867381:0;yay -S bitwarden
-: 1670945937:0;bat
-: 1670945964:0;bat .vim
-: 1670945966:0;bat .viminfo
-: 1670945979:0;bat ~/.config/zsh/.zshrc
-: 1671040278:0;nv ~/.config/alacritty/alacritty.yml
-: 1671040332:0;cp ~/Downloads/ComicMono.ttf ~/.local/share/folks
-: 1671040334:0;fc-cache -f -v
-: 1671203255:0;yay -R jackett
-: 1671203258:0;yay -R openssl-1.0
-: 1671203894:0;cd projects/Neovim
-: 1671203898:0;nv init.lua
-: 1671204008:0;yay -S jackett
-: 1671204029:0;sdr
-: 1671205196:0;touch ~/.config/lazygit/config.yml
-: 1671205203:0;nv ~/.config/lazygit/config.yml
-: 1671205514:0;cd neovim
-: 1671206017:0;ls
-: 1671206025:0;for i in $(seq 1 10); do time $shell -i -c exit\
+t
+rm recording.mp4
+rm .wget-hsts
+rm -rf .arduino*
+nv switch.c
+wf-recorder -g "$(slurp)" -f ~/nvim-tree.mp4
+wf-recorder -g "$(slurp)" -f ~/nvim-tree2.mp4
+nvim init.lua
+cd Clg-Notes
+cd ESE
+mkdir ESE-Papers
+unzip WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
+mv WhatsApp\ Image\ 2023-02-05\ at* ESE-Papers
+cd ESE-Papers
+cd Downloads/Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
+cd Downloads/
+./qbit.sh
+yay wpaperd
+nv XDG_CONFIG_HOME/wpaperd/output.conf
+nv $HOME/.config/wpaperd/output.conf
+mkdir ~/.config/wpaperd
+nv ~/.config/wpaperd/output.conf
+pkill swaybg
+bob use 0.8.3
+LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/fc6873809934917b470bff1b072171879899a36b/utils/installer/install.sh)
+~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+bob use nightly
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+lvim
+nv .
+mpv Blue.is.the.Warmest.Color.2013.1080p.BluRay.6CH.3.4GB.MkvCage.mkv
+mpv A\ History\ of\ Violence\ \(2005\)\ \[1080p\]
+cd .cac
+cd mp
+cd .config/mpv
+rm -rf watch_later
+mpv ~/Downloads/A\ History\ of\ Violence\ \(2005\)\ \[1080p\]
+unzip linuxmobile\ hyprland-dots\ main\ .config-waybar.zip
+mv ~/.config/waybar ~/.config/waybar.bak
+cp -r linuxmobile\ hyprland-dots\ main\ .config-waybar ~/.config/waybar
+mv waybar waybar.bak
+cp -r ~/Downloads/linuxmobile\ hyprland-dots\ main\ .config-waybar waybar
+cd .config/waybar
+nv config.jsonc
+rm -rf waybar
+mv waybar.bak waybar
+pkill waybar
+waybar
+mv wallpapers ~/Pictures
+gh repo clone Rishabh672003/Wallpapers
+mv ~/Pictures/wallpapers/* Wallpapers
+rm -rf ~/Pictures/wallpapers
+mv Wallpapers ~/Pictures
+cd pi
+mv Pictures/Wallpapers .
+rm -rf .gitmodules
+yadm submodule add https://github.com/Rishabh672003/Wallpapers wallpapers
+rm -rf Wallpapers
+yadm submodule add https://github.com/Rishabh672003/Wallpapers
+nv .gitmodules
+rm -rf Wallpapers .gitmodules
+cd Pictures
+git clone https://github.com/Rishabh672003/Wallpapers
+cd Wallpapers
+cd .con
+cd swappy/
+nv config
+yay grimblast
+hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"
+which grimblast
+grimblast --help
+grimblast check
+grimblast save
+cd scree
+nemo .
+grimblast area
+yay -R grimblast-git
+grimblast copy
+grimblast screen
+hyprctl keyword animation "fadeOut,0,0,default"; grimblast --notify copysave area; hyprctl keyword animation "fadeOut,1,4,default"\
 
-: 1671212613:0;gtnv
-: 1671212665:0;rm -rf *arduino*
-: 1671212703:0;rm -rf *Arduino*
-: 1671249815:0;uneo
-: 1671280789:0;we
-: 1671280865:0;cd .config
-: 1671280873:0;mv zsh zsh.bak
-: 1671281539:0;rm -rf .zsh
-: 1671281553:0;rm -rf ~/.local/share/zsh
-: 1671281580:0;rm -rf .local/share/zinit
-: 1671283758:0;nr
-: 1671288569:0;a
-: 1671288572:0;time pfetch
-: 1671295325:0;man zshmodules
-: 1671295416:0;build-fzf-tab-module
-: 1671295564:0;cd cd
-: 1671296154:0;nv vim.plugin.zsh
-: 1671297903:0;cd zsh.bak2
-: 1671297911:0;nv .zshrc
-: 1671297957:0;zcompile ~/.local/share/zap/plugins/fzf-tab-source/fzf-tab-source.plugin.zsh
-: 1671297981:0;cd fzf-tab-source
-: 1671298022:0;cd zsh-autosuggestions
-: 1671298037:0;zcompile --help
-: 1671298052:0;zcompile zsh-autosuggestions.plugin.zsh zsh-autosuggestions.zsh
-: 1671298158:0;cd plugins/fzf-tab-source
-: 1671298230:0;lllll
-: 1671298249:0;zcompile fzfcdp
-: 1671298254:0;zap -u
-: 1671298282:0;cd fzf-tab
-: 1671298290:0;zcompile fzf-tab.plugin.zsh
-: 1671298311:0;nv zap.zsh
-: 1671298442:0;cd .local/share/zap
-: 1671298444:0;cd plugins
-: 1671298449:0;cd zsh-autopair
-: 1671298545:0;rm -rf ~/.local/share/zap/plugins
-: 1671298920:0;cd .config/zsh
-: 1671298930:0;zcompile aliases.zsh
-: 1671299227:0;lsblk
-: 1671300174:0;cd /boot
-: 1671300180:0;cd efi
-: 1671300190:0;cd EFI
-: 1671300315:0;efibootmgr
-: 1671300375:0;sudo efibootmgr
-: 1671337742:0;ys
-: 1671337797:0;cd wall
-: 1671337847:0;echo $XDG_CURRENT_DESKTOP
-: 1671337871:0;cd ~root
-: 1671338180:0;cd neo
-: 1671338439:0;cd zsh
-: 1671338503:0;rm -rf git.plugin.zsh
-: 1671338556:0;rm git.plugin.zsh
-: 1671338579:0;zcompile .zshrc
-: 1671339154:0;cd .cache
-: 1671339378:0;cp README.md ~/.config/zsh
-: 1671339395:0;cd .local
-: 1671339399:0;cd share/zap/plugins
-: 1671339405:0;cd zsh-autoswitch-virtualenv
-: 1671339411:0;nv .gitignore
-: 1671339476:0;zcompile zsh-autoswitch-virtualenv.zsh
-: 1671339502:0;cd vim
-: 1671339512:0;cdp
-: 1671339519:0;zcompile zap.zsh
-: 1671339558:0;rm -rf ~/.local/share/zap/zap.zsh.zwc
-: 1671340182:0;nv
-: 1671340682:0;cz
-: 1671340688:0;yl
-: 1671340703:0;ngit
-: 1671341747:0;cd
-: 1671341804:0;cdd zsh
-: 1671342559:0;zshc
-: 1671342560:0;lg
-: 1671351515:0;nv README.md
-: 1671351603:0;nv .
-: 1671351657:0;ll
-: 1671351659:0;time $SHELL -i -c exit
-: 1671351660:0;c
-: 1671351661:0;e
-: 1671351750:0;zshc
+rm -rf ~/.local/bin/grimblast
+yay -S grimblast
+echo "${XDG_SCREENSHOTS_DIR:-${XDG_PICTURES_DIR:-$HOME}}"
+sudo cp ~/.local/bin/grimblast /usr/bin
+su
+grimblast
+mv /usr/bin/grimblast .
+sudo mv /usr/bin/grimblast .
+cp grimblast ~/.local/bin
+cd .local/bin
+ln -s /usr/bin/grimblast grimblast
+ln -s grimblast /usr/bin/grimblast
+sudo ln -s grimblast /usr/bin/grimblast
+sudo mv grimblast /usr/bin
+yel
+yadm status
+rm ~/.config/hypr/scripts/env-vars.sh
+cd other-configs
+mv other-configs other-stuff
+cd other-stuff
+nv /usr/bin/grimblast
+nv grimblast
+nv ~/.config/yadm/yadm.sh
+rm grimblast
+./remain.out
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+lsblk
+sudo grub-install --target=x86_64-efi --efi-directory=/dev/nvme0n1p1 --bootloader-id=GRUB
+sudo grub-install --target=x86_64-efi --efi-directory= /dev/nvme0n1p1 --bootloader-id=GRUB
+cd boot/efi
+gh repo clone catppuccin/firefox
+make package .
+yay yq
+yay -S yq
+mkdir make-pack
+cd firefox
+make package ../make-pack
+yay -S yarn
+yarn install
+nv manifest.json
+cd node_modules
+make package
+la
+yarn generate
+cd dist
+cd mocha
+cd blue
+gh repo clone andreasgrafen/cascade
+cd cascade
+cp -r chrome ~/.mozilla/firefox/a3dvpcoo.default-release
+cd includes
+cp ~/projects/cascade/integrations/catppuccin/cascade-mocha.css .
+rm /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
+rm -rf /home/rishabh/.cache/mozilla/firefox/a3dvpcoo.default-release
+rm -rf /home/rishabh/.cache/mozilla/firefox/bdfp0sgl.default
+nv userChrome.css
+rm -rf a3dvpcoo.default-release/chrome
+cd a3dvpcoo.default-release
+rm -rf cascade
+rm web2
+rm -rf web2
+rm nvim-tree2*
+rm nvim-tree
+rm nvim-tree.mp4
+nvim
+cd zsh
+cdd zsh
+time $SHELL -i -c exit
+pkill wpaperd
+swaybg -i ~/Pictures/Wallpapers/Milky_Way.JPG
+mv ~/Pictures/Screenshots .
+sudo nv /usr/bin/grimblast
+sudo nvim /usr/bin/grimblast
+date --%D
+date %D
+date --date=string
+date --date=String
+man -d
+date --iso-8601
+date -Ins
+date -In
+man date
+date -Is
+date -Is | awk 'T '
+date -Is | awk * T
+sed
+man awk
+rm -rf *
+vs
+sudo cp ~/other-stuff/grimblast /usr/bin/grimblast
+vs /usr/bin/grimblast
+time
+date
+cal
+cal -j
+cal -m
+date -I
+date -I | cat
+date -I && date --universal
+date -I && date --universal | awk ' '
+date --universal | awk ' '
+date --universal | awk ''
+date --universal | awk
+wpaperd
+shotwell 2023-02-06T12:02:28+05:30.png
+cd Applications
+rm -rf ~/.local/share/applications/appimagekit_a733bf125b830ccf945f0d44f8c091d1-Neovim*
+rm -rf ~/.local/share/applications/appimagekit_d28f94101ecd4e0bb101d524ca32d3bc-Neovim.desktop
+rm -rf ~/.local/share/applications/appimagekit_dc5a01ff6e885926206c8f411dbd566d-Neovim.desktop
+rm -rf nvim-0.8.1.appimage nvim-0.8.appimage nvim.appimage
+nnvim -v
+nv -v
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+install-grub
+nv chemistry.md
+yarn install\
+yarn generatec
+rm -rf firefox
+bob ls
+QT_QPA_PLATFORM=wayland telegram-desktop
+sudo rm -rf /usr/bin/grimblast
+yay -S grimblast-git
+dunstctl history
+cd /
+fd screenshots
+vs /etc/environment
+cd Screenshots
+discord --enable-features=UseOzonePlatform
+discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+/usr/bin/discord --enable-features=UseOzonePlatform --ozone-platform=wayland
+nv .clang-format
+cd .mozilla/firefox
+cd .mozilla/firefox/eq5qrv2i.default-release
+cd chrome
+rm -rf .zoom
+yay hidamari
+hidamari
+yay -Rns hidamari
+rm -rf Videos/Hidamari
+cd cppro
+./a.out
+rm first.out
+g++ first.cpp
+g++ -o test first.cpp
+./test
+nv first.cpp
+~/projects/cppro/first.out
+~/projects/cppro/a.out
+cd cp
+nv a.c
+cd cpp
+cd cppr
+cdd cpp
+nv a.cpp
+nv lazy.lua
+cd all
+cd alla
+cd ~/.config/alacritty
+nv alacritty.yml
+wf-recorder -g "$(slurp)" -f ~/jaq-issue.mp4
+nv ~/.config/alacritty/alacritty.yml
+cd ese
+rm chemistry.md WhatsApp\ Unknown\ 2023-02-05\ at\ 8.36.28\ AM.zip
+nv maths.md
+hyprctl layers
+rofi
+rofi -show drun
+wf-recorder -g "$(slurp)" -f ~/hypr.mp4
+wf-recorder -g "$(slurp)" -f ~/hypr2.mp4
+spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
+pkill spotify
+ae
+killall -9 spotify
+r
+alias
+cd .config/tmux
+kk
+cd tmux
+nv tmux.conf
+xe
+tmux
+wf-recorder -g "$(slurp)" -f ~/hypr3.mp4
+yay -S obsidian
+n
+mkdir Screencasts
+cd hypr
+nv hyprland.conf
+cd Videos
+rm -rf *.mp4
+cd Screencasts
+yay -S tilix
+yay -S gimp
+hyprctl clients
+l
+yl
+cd nv
+cd random-shit
+nv uidai
+we
+yay -S goneovim
+yay goneovim
+goneovim
+nv a.toml
+yay -Rns goneovim
+yay -Rns goneovim-bin
+git checkout master
+cd .github
+git checkout -b issue-template
+mkdir ISSUE_TEMPLATE
+cd ISSUE_TEMPLATE
+cdpp
+nv init.lua
+git push
+git push --set-upstream origin lazy
+cd nvim-basic
+ys
+cd clg
+cd previous-stuff
+rm *.mp4
+ld
+sudo pacman -S pip
+sudo pacman -S python-pip
+nv README.md
+nv install.sh
+cd ~/
+nr
+shotwell WhatsApp\ Image\ 2023-02-08\ at\ 7.57.26\ PM.jpeg
+uneo
+rm -rf linuxmobile\ hyprland-dots\ main\ .config-waybar*
+sudo rm -rf /home/rishabh/.local/share/Trash/files/ntopng
+trash-empty
+sudo trash-empty
+sudo rm -rf /home/rishabh/.local/share/Trash/*
+baobab
+sudo paccache -rk0
+cd pro
+cargo build new-pro
+lll
+nv Cargo.toml
+cd nvim-b
+cd lua
+cd user
+x
+exec zsh
+cd projects
+man cargo
+rm -rf new-pro
+cargo new new-pro
+cd new-pro
+nv src/main.rs
+cls
+lv
+rm -rf nvim.appimage
+cd ~
+rm -rf nvim.appimage squashfs-root
+./install2.sh
+cd app
+gtnv
+nnvim
+cdp
+rm -rf squashfs-root
+lg
+cd squashfs-root
+cd neovim
+./squashfs-root/AppRun
+~/neovim/squashfs-root/Apprun
+sudo pacman -Sy grim slurp wl-copy jq notify-send hyprctl --noconfirm --needed
+wl-copy
+sudo pacman -Sy grim slurp wl-copy jq --noconfirm --needed
+sudo pacman -Sy grim slurp jq --noconfirm --needed
+yay wl-copy
+sudo pacman -Sy grim slurp jq wl-clipboard --noconfirm --needed
+nv
+pacman -Qq | fzf
+pacman -Qi libappimage
+cd Downloads
+cd bin
+./nvim
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
+tar -xvf nvim-linux64.tar.gz
+cd nvim-linux64
+ll
+c
+cd nvim
+nv install2.sh
+cd
+ls
+sdr
+e
+exit
+we
+c
+ys
+cd projects
+ll
+git clone https://github.com/neovim/neovim
+c
+gtnv
+c
+nnvim
+cd
+ls
+nv
+c
+nv
+cd Applications
+ll
+exec zsh
+nnvim
+exec zsh
+nnvim
+c
+nnvim
+e
+c
+exec zsh
+nv
+exec zsh
+systemctl status rate-mirrors.service
+ls
+cd other-stuff
+ls
+vs /etc/systemd/system/rate-mirrors.service
+vs /etc/systemd/system/rate-mirrors.timer
+sudo systemctl daemon-reload
+rs
+rss
+c
+rss
+c
+rss
+c
+ys
+c
+e
+wss
+zshc
+ls
+lg
+e
+: 1675939143:0;zshc
